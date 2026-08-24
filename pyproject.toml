@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medphygraph"
+version = "1.0.0"
+description = "MedPhyGraph: Counterfactual Support-Graph Maintenance for Dynamic Built-Environment Digital Twins (paper-frozen public release)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Kamran Gholizadeh HamlAbadi" },
+    { name = "Monica Vahdati" },
+    { name = "Abdulmotaleb El Saddik" },
+]
+dependencies = [
+    "numpy>=1.26",
+    "torch>=2.2",
+    "scikit-learn>=1.3",
+    "Pillow>=10.0",
+    "matplotlib>=3.8",
+    "shapely>=2.0",
+    "networkx>=3.2",
+]
+
+[project.urls]
+Homepage = "https://medphygraph.github.io/"
+Repository = "https://github.com/kamranghz/medphygraph"
+Model = "https://huggingface.co/MedPhyGraph/CF-SupportNet"
+Dataset = "https://huggingface.co/datasets/MedPhyGraph/support-graph-data"
+
+[project.optional-dependencies]
+hf = ["huggingface_hub>=0.23"]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src", "scripts"]
+include = ["medphygraph*", "evaluation*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "integration: optional integration tests",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

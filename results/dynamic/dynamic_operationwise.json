@@ -1,0 +1,478 @@
+{
+  "corpora": {
+    "procedural": {
+      "geometry_rule": {
+        "independent": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 0.111111,
+          "transfer_transition_macro": 0.888889,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 0.111111,
+          "unchanged_preservation": 0.798882,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 18,
+            "pred_remove": 27
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 0.111111,
+          "transfer_transition_macro": 0.888889,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 0.111111,
+          "unchanged_preservation": 0.798882,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 18,
+            "pred_remove": 27
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 0.111111,
+          "transfer_transition_macro": 0.888889,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 0.111111,
+          "unchanged_preservation": 0.798882,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 18,
+            "pred_remove": 27
+          }
+        }
+      },
+      "logistic": {
+        "independent": {
+          "add_transition_macro": 0.962963,
+          "remove_transition_macro": 0.685185,
+          "transfer_transition_macro": 0.62963,
+          "add_edge_macro": 0.962963,
+          "remove_edge_macro": 0.685185,
+          "unchanged_preservation": 1.0,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 19,
+            "pred_remove": 37
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.777778,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 16,
+            "pred_remove": 25
+          }
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 1.0,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        }
+      },
+      "mlp": {
+        "independent": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 1.0,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 0.703704,
+          "transfer_transition_macro": 0.62963,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 0.703704,
+          "unchanged_preservation": 1.0,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 18,
+            "pred_remove": 36
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 9,
+            "pred_remove": 18
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 1.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.957492,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 18,
+            "gt_remove": 27,
+            "pred_add": 18,
+            "pred_remove": 27
+          }
+        }
+      }
+    },
+    "isaac_hc": {
+      "geometry_rule": {
+        "independent": {
+          "add_transition_macro": 0.75,
+          "remove_transition_macro": 0.305556,
+          "transfer_transition_macro": 0.616667,
+          "add_edge_macro": 0.75,
+          "remove_edge_macro": 0.305556,
+          "unchanged_preservation": 0.747695,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 17,
+            "pred_remove": 23
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 0.333333,
+          "transfer_transition_macro": 0.666667,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 0.333333,
+          "unchanged_preservation": 0.747695,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 12,
+            "pred_remove": 18
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 0.333333,
+          "transfer_transition_macro": 0.666667,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 0.333333,
+          "unchanged_preservation": 0.747695,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 12,
+            "pred_remove": 18
+          }
+        }
+      },
+      "logistic": {
+        "independent": {
+          "add_transition_macro": 0.761111,
+          "remove_transition_macro": 0.736111,
+          "transfer_transition_macro": 0.444444,
+          "add_edge_macro": 0.761111,
+          "remove_edge_macro": 0.736111,
+          "unchanged_preservation": 0.913688,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 22,
+            "pred_remove": 31
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.88301,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 6,
+            "pred_remove": 12
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.333333,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.88301,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 8,
+            "pred_remove": 14
+          }
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "add_transition_macro": 0.805556,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 0.805556,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.863245,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 10,
+            "pred_remove": 12
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.856835,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 6,
+            "pred_remove": 12
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.856835,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 6,
+            "pred_remove": 12
+          }
+        }
+      },
+      "mlp": {
+        "independent": {
+          "add_transition_macro": 0.75,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 0.75,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.887017,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 11,
+            "pred_remove": 12
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 0.805556,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 0.861111,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.817229,
+          "unchanged_retention_cond_prev_correct": 0.985795,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 9,
+            "pred_remove": 15
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 0.605556,
+          "remove_transition_macro": 0.9,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 0.861111,
+          "remove_edge_macro": 0.9,
+          "unchanged_preservation": 0.792504,
+          "unchanged_retention_cond_prev_correct": 0.948758,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 9,
+            "pred_remove": 27
+          }
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "add_transition_macro": 0.805556,
+          "remove_transition_macro": 0.777778,
+          "transfer_transition_macro": 0.555556,
+          "add_edge_macro": 0.805556,
+          "remove_edge_macro": 0.777778,
+          "unchanged_preservation": 0.856835,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 16,
+            "pred_remove": 24
+          }
+        },
+        "state_consistency": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 0.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.856835,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 6,
+            "pred_remove": 12
+          }
+        },
+        "transition_aware": {
+          "add_transition_macro": 1.0,
+          "remove_transition_macro": 1.0,
+          "transfer_transition_macro": 1.0,
+          "add_edge_macro": 1.0,
+          "remove_edge_macro": 1.0,
+          "unchanged_preservation": 0.856835,
+          "unchanged_retention_cond_prev_correct": 1.0,
+          "counts": {
+            "gt_add": 12,
+            "gt_remove": 18,
+            "pred_add": 12,
+            "pred_remove": 18
+          }
+        }
+      }
+    }
+  }
+}

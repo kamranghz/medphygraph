@@ -1,0 +1,36 @@
+{
+  "isaac_hc": [
+    "tw_i4h_examination_room_00",
+    "tw_i4h_examination_room_01",
+    "tw_i4h_examination_room_02",
+    "tw_i4h_icu_like_room_00",
+    "tw_i4h_icu_like_room_01",
+    "tw_i4h_icu_like_room_02",
+    "tw_i4h_operating_room_00",
+    "tw_i4h_operating_room_01",
+    "tw_i4h_operating_room_02",
+    "tw_i4h_patient_room_00",
+    "tw_i4h_patient_room_01",
+    "tw_i4h_patient_room_02"
+  ],
+  "procedural": [
+    "tw_examination_room_00",
+    "tw_examination_room_01",
+    "tw_examination_room_02",
+    "tw_icu_00",
+    "tw_icu_01",
+    "tw_icu_02",
+    "tw_medical_laboratory_00",
+    "tw_medical_laboratory_01",
+    "tw_medical_laboratory_02",
+    "tw_operating_room_00",
+    "tw_operating_room_01",
+    "tw_operating_room_02",
+    "tw_patient_room_00",
+    "tw_patient_room_01",
+    "tw_patient_room_02",
+    "tw_recovery_room_00",
+    "tw_recovery_room_01",
+    "tw_recovery_room_02"
+  ]
+}

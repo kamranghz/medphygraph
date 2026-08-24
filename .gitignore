@@ -1,0 +1,58 @@
+# Python
+.venv/
+.env/
+.envs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Large artifacts (hosted on Hugging Face; populated by scripts/download.py)
+*.pt
+checkpoints/*.pt
+checkpoints/**/*.pt
+data/training/
+data/procedural_scenes/
+data/expanded_transfer/
+data/twinworld_*/
+
+# Local evaluation runs
+runs/
+
+# Download cache
+.hf_download_cache/
+*.7z
+*.zip
+*.tar.gz
+
+# Manim / local video caches (never commit)
+media/
+Demo-Camera.mp4
+*.mp4
+!docs/assets/**
+
+# Optional local Manim tooling (not part of the public Isaac demo)
+scripts/animation/
+
+# Isaac / local assets
+isaac_assets/
+i4h_assets/
+*.usd
+*.usda
+!**/example*.usda
+
+# Local Isaac calibration / scratch helpers
+scripts/isaac/measure_*.py
+scripts/isaac/export_i4h_identity_check.py
+scripts/isaac/report_i4h_placement.py
+scripts/isaac/compose_demo_video.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,61 @@
+corpus,base_scene_id,previous_state_id,current_state_id,operation,subject,prev_host,new_host,n_prev_gt_hosts,ambiguous,primary_eligible,gt_add,gt_remove,resolution
+procedural,tw_patient_room_00,tw_patient_room_00_s0,tw_patient_room_00_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_patient_room_00,tw_patient_room_00_s1,tw_patient_room_00_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_patient_room_01,tw_patient_room_01_s0,tw_patient_room_01_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_patient_room_01,tw_patient_room_01_s1,tw_patient_room_01_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_patient_room_02,tw_patient_room_02_s0,tw_patient_room_02_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_patient_room_02,tw_patient_room_02_s1,tw_patient_room_02_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_icu_00,tw_icu_00_s0,tw_icu_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_icu_00,tw_icu_00_s1,tw_icu_00_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_icu_01,tw_icu_01_s0,tw_icu_01_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_icu_01,tw_icu_01_s1,tw_icu_01_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_icu_02,tw_icu_02_s0,tw_icu_02_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_icu_02,tw_icu_02_s1,tw_icu_02_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_operating_room_00,tw_operating_room_00_s0,tw_operating_room_00_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_operating_room_00,tw_operating_room_00_s1,tw_operating_room_00_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_operating_room_01,tw_operating_room_01_s0,tw_operating_room_01_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_operating_room_01,tw_operating_room_01_s1,tw_operating_room_01_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_operating_room_02,tw_operating_room_02_s0,tw_operating_room_02_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_operating_room_02,tw_operating_room_02_s1,tw_operating_room_02_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_examination_room_00,tw_examination_room_00_s0,tw_examination_room_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_examination_room_00,tw_examination_room_00_s1,tw_examination_room_00_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_examination_room_01,tw_examination_room_01_s0,tw_examination_room_01_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_examination_room_01,tw_examination_room_01_s1,tw_examination_room_01_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_examination_room_02,tw_examination_room_02_s0,tw_examination_room_02_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_examination_room_02,tw_examination_room_02_s1,tw_examination_room_02_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_recovery_room_00,tw_recovery_room_00_s0,tw_recovery_room_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_recovery_room_00,tw_recovery_room_00_s1,tw_recovery_room_00_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_recovery_room_01,tw_recovery_room_01_s0,tw_recovery_room_01_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_recovery_room_01,tw_recovery_room_01_s1,tw_recovery_room_01_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_recovery_room_02,tw_recovery_room_02_s0,tw_recovery_room_02_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_recovery_room_02,tw_recovery_room_02_s1,tw_recovery_room_02_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_medical_laboratory_00,tw_medical_laboratory_00_s0,tw_medical_laboratory_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+procedural,tw_medical_laboratory_00,tw_medical_laboratory_00_s1,tw_medical_laboratory_00_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_medical_laboratory_01,tw_medical_laboratory_01_s0,tw_medical_laboratory_01_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_medical_laboratory_01,tw_medical_laboratory_01_s1,tw_medical_laboratory_01_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+procedural,tw_medical_laboratory_02,tw_medical_laboratory_02_s0,tw_medical_laboratory_02_s1,transfer_support,monitor,floor,bench,1,False,True,"[[""monitor"", ""bench""]]","[[""monitor"", ""floor""]]",unique_previous_gt_host
+procedural,tw_medical_laboratory_02,tw_medical_laboratory_02_s1,tw_medical_laboratory_02_s2,remove_object,monitor,,,1,False,True,[],"[[""monitor"", ""floor""]]",
+isaac_hc,tw_i4h_operating_room_00,tw_i4h_operating_room_00_s0,tw_i4h_operating_room_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+isaac_hc,tw_i4h_operating_room_00,tw_i4h_operating_room_00_s1,tw_i4h_operating_room_00_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_operating_room_01,tw_i4h_operating_room_01_s0,tw_i4h_operating_room_01_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+isaac_hc,tw_i4h_operating_room_01,tw_i4h_operating_room_01_s1,tw_i4h_operating_room_01_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_operating_room_02,tw_i4h_operating_room_02_s0,tw_i4h_operating_room_02_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+isaac_hc,tw_i4h_operating_room_02,tw_i4h_operating_room_02_s1,tw_i4h_operating_room_02_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_patient_room_00,tw_i4h_patient_room_00_s0,tw_i4h_patient_room_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+isaac_hc,tw_i4h_patient_room_00,tw_i4h_patient_room_00_s1,tw_i4h_patient_room_00_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_patient_room_01,tw_i4h_patient_room_01_s0,tw_i4h_patient_room_01_s1,transfer_support,tray,floor,bench,1,False,True,"[[""tray"", ""bench""]]","[[""tray"", ""floor""]]",unique_previous_gt_host
+isaac_hc,tw_i4h_patient_room_01,tw_i4h_patient_room_01_s1,tw_i4h_patient_room_01_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_patient_room_02,tw_i4h_patient_room_02_s0,tw_i4h_patient_room_02_s1,transfer_support,tray,floor,bench,1,False,True,"[[""tray"", ""bench""]]","[[""tray"", ""floor""]]",unique_previous_gt_host
+isaac_hc,tw_i4h_patient_room_02,tw_i4h_patient_room_02_s1,tw_i4h_patient_room_02_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_examination_room_00,tw_i4h_examination_room_00_s0,tw_i4h_examination_room_00_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+isaac_hc,tw_i4h_examination_room_00,tw_i4h_examination_room_00_s1,tw_i4h_examination_room_00_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_examination_room_01,tw_i4h_examination_room_01_s0,tw_i4h_examination_room_01_s1,transfer_support,tray,floor,bench,1,False,True,"[[""tray"", ""bench""]]","[[""tray"", ""floor""]]",unique_previous_gt_host
+isaac_hc,tw_i4h_examination_room_01,tw_i4h_examination_room_01_s1,tw_i4h_examination_room_01_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_examination_room_02,tw_i4h_examination_room_02_s0,tw_i4h_examination_room_02_s1,transfer_support,tray,floor,bench,1,False,True,"[[""tray"", ""bench""]]","[[""tray"", ""floor""]]",unique_previous_gt_host
+isaac_hc,tw_i4h_examination_room_02,tw_i4h_examination_room_02_s1,tw_i4h_examination_room_02_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_icu_like_room_00,tw_i4h_icu_like_room_00_s0,tw_i4h_icu_like_room_00_s1,transfer_support,tray,floor,bench,1,False,True,"[[""tray"", ""bench""]]","[[""tray"", ""floor""]]",unique_previous_gt_host
+isaac_hc,tw_i4h_icu_like_room_00,tw_i4h_icu_like_room_00_s1,tw_i4h_icu_like_room_00_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_icu_like_room_01,tw_i4h_icu_like_room_01_s0,tw_i4h_icu_like_room_01_s1,add_object,container_dyn,,,0,False,True,"[[""container_dyn"", ""floor""]]",[],
+isaac_hc,tw_i4h_icu_like_room_01,tw_i4h_icu_like_room_01_s1,tw_i4h_icu_like_room_01_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",
+isaac_hc,tw_i4h_icu_like_room_02,tw_i4h_icu_like_room_02_s0,tw_i4h_icu_like_room_02_s1,transfer_support,tray,floor,bench,1,False,True,"[[""tray"", ""bench""]]","[[""tray"", ""floor""]]",unique_previous_gt_host
+isaac_hc,tw_i4h_icu_like_room_02,tw_i4h_icu_like_room_02_s1,tw_i4h_icu_like_room_02_s2,remove_object,tray,,,1,False,True,[],"[[""tray"", ""floor""]]",

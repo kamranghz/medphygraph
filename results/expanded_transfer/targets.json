@@ -1,0 +1,4218 @@
+[
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__iv_pole_to_bench",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_00__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__iv_pole_to_cabinet",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_00__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__monitor_to_cabinet",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_00__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__tray_to_cabinet",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_00__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__walker_to_bench",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_00__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__walker_to_cabinet",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_00__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__wheelchair_to_bench",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_00__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_00__wheelchair_to_cabinet",
+    "base_scene_id": "tw_examination_room_00",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_00__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_00__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_01__cart_to_bench",
+    "base_scene_id": "tw_examination_room_01",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_01__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_01__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_01__cart_to_cabinet",
+    "base_scene_id": "tw_examination_room_01",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_01__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_01__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_01__iv_pole_to_bench",
+    "base_scene_id": "tw_examination_room_01",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_01__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_01__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_01__iv_pole_to_cabinet",
+    "base_scene_id": "tw_examination_room_01",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_01__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_01__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_01__monitor_to_cabinet",
+    "base_scene_id": "tw_examination_room_01",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_01__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_01__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_01__tray_to_cabinet",
+    "base_scene_id": "tw_examination_room_01",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_01__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_01__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__iv_pole_to_bench",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_02__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__iv_pole_to_cabinet",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_02__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__monitor_to_cabinet",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_02__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__tray_to_cabinet",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_02__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__walker_to_bench",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_02__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__walker_to_cabinet",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_02__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__wheelchair_to_bench",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_examination_room_02__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_examination_room_02__wheelchair_to_cabinet",
+    "base_scene_id": "tw_examination_room_02",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_examination_room_02__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_examination_room_02__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__iv_pole_to_bench",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_00__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__iv_pole_to_cabinet",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_00__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__monitor_to_cabinet",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_00__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__tray_to_cabinet",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_00__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__walker_to_bench",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_00__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__walker_to_cabinet",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_00__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__wheelchair_to_bench",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_00__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_00__wheelchair_to_cabinet",
+    "base_scene_id": "tw_icu_00",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_00__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_00__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__cart_to_bench",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_01__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__cart_to_cabinet",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_01__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__iv_pole_to_bench",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_01__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__iv_pole_to_cabinet",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_01__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__monitor_to_cabinet",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_01__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__tray_to_cabinet",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_01__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__wheelchair_to_bench",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_01__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_01__wheelchair_to_cabinet",
+    "base_scene_id": "tw_icu_01",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_01__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_01__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__iv_pole_to_bench",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_02__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__iv_pole_to_cabinet",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_02__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__monitor_to_cabinet",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_02__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__tray_to_cabinet",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_02__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__walker_to_bench",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_02__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__walker_to_cabinet",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_02__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__wheelchair_to_bench",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_icu_02__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_icu_02__wheelchair_to_cabinet",
+    "base_scene_id": "tw_icu_02",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_icu_02__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_icu_02__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__iv_pole_to_bench",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__iv_pole_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__monitor_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__tray_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__walker_to_bench",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__walker_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__wheelchair_to_bench",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_00__wheelchair_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_00",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_00__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_00__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_01__cart_to_bench",
+    "base_scene_id": "tw_medical_laboratory_01",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_01__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_01__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_01__cart_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_01",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_01__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_01__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_01__iv_pole_to_bench",
+    "base_scene_id": "tw_medical_laboratory_01",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_01__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_01__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_01__iv_pole_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_01",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_01__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_01__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_01__monitor_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_01",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_01__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_01__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_01__tray_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_01",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_01__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_01__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__iv_pole_to_bench",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__iv_pole_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__monitor_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__tray_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__walker_to_bench",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__walker_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__wheelchair_to_bench",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_medical_laboratory_02__wheelchair_to_cabinet",
+    "base_scene_id": "tw_medical_laboratory_02",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_medical_laboratory_02__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_medical_laboratory_02__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_00__cart_to_bench",
+    "base_scene_id": "tw_operating_room_00",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_00__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_00__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_00__cart_to_cabinet",
+    "base_scene_id": "tw_operating_room_00",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_00__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_00__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_00__iv_pole_to_bench",
+    "base_scene_id": "tw_operating_room_00",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_00__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_00__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_00__iv_pole_to_cabinet",
+    "base_scene_id": "tw_operating_room_00",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_00__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_00__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_00__monitor_to_cabinet",
+    "base_scene_id": "tw_operating_room_00",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_00__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_00__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_00__tray_to_cabinet",
+    "base_scene_id": "tw_operating_room_00",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_00__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_00__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__iv_pole_to_bench",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_01__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__iv_pole_to_cabinet",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_01__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__monitor_to_cabinet",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_01__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__tray_to_cabinet",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_01__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__walker_to_bench",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_01__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__walker_to_cabinet",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_01__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__wheelchair_to_bench",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_01__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_01__wheelchair_to_cabinet",
+    "base_scene_id": "tw_operating_room_01",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_01__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_01__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_02__cart_to_bench",
+    "base_scene_id": "tw_operating_room_02",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_02__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_02__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_02__cart_to_cabinet",
+    "base_scene_id": "tw_operating_room_02",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_02__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_02__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_02__iv_pole_to_bench",
+    "base_scene_id": "tw_operating_room_02",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_02__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_operating_room_02__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_02__iv_pole_to_cabinet",
+    "base_scene_id": "tw_operating_room_02",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_02__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_02__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_02__monitor_to_cabinet",
+    "base_scene_id": "tw_operating_room_02",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_02__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_02__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_operating_room_02__tray_to_cabinet",
+    "base_scene_id": "tw_operating_room_02",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_operating_room_02__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_operating_room_02__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__cart_to_bench",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_00__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__cart_to_cabinet",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_00__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__iv_pole_to_bench",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_00__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__iv_pole_to_cabinet",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_00__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__monitor_to_cabinet",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_00__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__tray_to_cabinet",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_00__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__wheelchair_to_bench",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_00__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_00__wheelchair_to_cabinet",
+    "base_scene_id": "tw_patient_room_00",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_00__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_00__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__iv_pole_to_bench",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_01__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__iv_pole_to_cabinet",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_01__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__monitor_to_cabinet",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_01__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__tray_to_cabinet",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_01__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__walker_to_bench",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_01__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__walker_to_cabinet",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_01__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__wheelchair_to_bench",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_01__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_01__wheelchair_to_cabinet",
+    "base_scene_id": "tw_patient_room_01",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_01__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_01__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__cart_to_bench",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_02__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__cart_to_cabinet",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_02__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__iv_pole_to_bench",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_02__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__iv_pole_to_cabinet",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_02__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__monitor_to_cabinet",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_02__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__tray_to_cabinet",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_02__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__wheelchair_to_bench",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_patient_room_02__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_patient_room_02__wheelchair_to_cabinet",
+    "base_scene_id": "tw_patient_room_02",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_patient_room_02__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_patient_room_02__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__cart_to_bench",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__cart_to_cabinet",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__iv_pole_to_bench",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__iv_pole_to_cabinet",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__monitor_to_cabinet",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__tray_to_cabinet",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__wheelchair_to_bench",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_00__wheelchair_to_cabinet",
+    "base_scene_id": "tw_recovery_room_00",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_00__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_00__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__iv_pole_to_bench",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__iv_pole_to_cabinet",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__monitor_to_cabinet",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__tray_to_cabinet",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__walker_to_bench",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "walker::floor->bench",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__walker_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__walker_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__walker_to_cabinet",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "walker::floor->cabinet",
+    "subject_id": "walker",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "walker",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "walker",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__walker_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__walker_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__wheelchair_to_bench",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_01__wheelchair_to_cabinet",
+    "base_scene_id": "tw_recovery_room_01",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_01__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_01__wheelchair_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__cart_to_bench",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "cart::floor->bench",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__cart_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__cart_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__cart_to_cabinet",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "cart::floor->cabinet",
+    "subject_id": "cart",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "cart",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "cart",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__cart_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__cart_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__iv_pole_to_bench",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "iv_pole::floor->bench",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__iv_pole_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__iv_pole_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__iv_pole_to_cabinet",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "iv_pole::floor->cabinet",
+    "subject_id": "iv_pole",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "iv_pole",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "iv_pole",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__iv_pole_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__iv_pole_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__monitor_to_cabinet",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "monitor::floor->cabinet",
+    "subject_id": "monitor",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "monitor",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "monitor",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__monitor_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__monitor_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__tray_to_cabinet",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "tray::floor->cabinet",
+    "subject_id": "tray",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "tray",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "tray",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__tray_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__tray_to_cabinet__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__wheelchair_to_bench",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "wheelchair::floor->bench",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "bench",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "bench"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__wheelchair_to_bench__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__wheelchair_to_bench__s1"
+  },
+  {
+    "corpus": "procedural",
+    "case_id": "procedural__tw_recovery_room_02__wheelchair_to_cabinet",
+    "base_scene_id": "tw_recovery_room_02",
+    "semantic_template": "wheelchair::floor->cabinet",
+    "subject_id": "wheelchair",
+    "previous_direct_host": "floor",
+    "new_direct_host": "cabinet",
+    "n_previous_gt_hosts": 1,
+    "previous_gt_hosts": [
+      "floor"
+    ],
+    "ambiguous": false,
+    "invalid": false,
+    "primary_metric_eligible": true,
+    "resolution": "unique_previous_gt_host",
+    "gt_add": [
+      [
+        "wheelchair",
+        "cabinet"
+      ]
+    ],
+    "gt_remove": [
+      [
+        "wheelchair",
+        "floor"
+      ]
+    ],
+    "previous_state_id": "procedural__tw_recovery_room_02__wheelchair_to_cabinet__s0",
+    "current_state_id": "procedural__tw_recovery_room_02__wheelchair_to_cabinet__s1"
+  }
+]

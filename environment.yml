@@ -1,0 +1,13 @@
+# MedPhyGraph conda environment (Anaconda / Miniconda)
+# Create:  conda env create -f environment.yml
+# Activate (Anaconda Prompt):  conda activate medphygraph
+# Update after pyproject changes:  conda env update -f environment.yml --prune
+
+name: medphygraph
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -e ".[dev,hf]"

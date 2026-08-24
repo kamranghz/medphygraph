@@ -1,0 +1,152 @@
+{
+  "corpora": {
+    "procedural": [
+      {
+        "stage": "independent",
+        "label": "Independent Scoring",
+        "static_pooled_ge_f1": 0.953571,
+        "static_note": "exact",
+        "mean_violations": 1.462963,
+        "transition_macro_dyn_f1": 0.759259,
+        "pooled_delta_micro_f1": 0.727273,
+        "add": 1.0,
+        "remove": 0.703704,
+        "transfer": 0.62963
+      },
+      {
+        "stage": "state_consistency",
+        "label": "+ State Consistency",
+        "static_pooled_ge_f1": 0.974063,
+        "static_note": "exact",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.75,
+        "pooled_delta_micro_f1": 0.75,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 0.0
+      },
+      {
+        "stage": "union_rescoring",
+        "label": "+ Union Candidate Rescoring Only",
+        "static_pooled_ge_f1": 0.974063,
+        "static_note": "static_proxy_state_consistency",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.75,
+        "pooled_delta_micro_f1": 0.75,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 0.0
+      },
+      {
+        "stage": "direct_support_gate",
+        "label": "+ Direct-Support Admissibility Only",
+        "static_pooled_ge_f1": 0.974063,
+        "static_note": "static_proxy_state_consistency",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.726852,
+        "pooled_delta_micro_f1": 0.642857,
+        "add": 0.481481,
+        "remove": 0.75,
+        "transfer": 0.925926
+      },
+      {
+        "stage": "union_and_gate",
+        "label": "+ Union Rescoring and Direct-Support Admissibility",
+        "static_pooled_ge_f1": 0.974063,
+        "static_note": "static_proxy_state_consistency",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.75,
+        "pooled_delta_micro_f1": 0.75,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 0.0
+      },
+      {
+        "stage": "medphygraph",
+        "label": "+ Full Transition-Aware Support Selection (MedPhyGraph)",
+        "static_pooled_ge_f1": 0.948127,
+        "static_note": "exact",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 1.0,
+        "pooled_delta_micro_f1": 1.0,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 1.0
+      }
+    ],
+    "isaac_hc": [
+      {
+        "stage": "independent",
+        "label": "Independent Scoring",
+        "static_pooled_ge_f1": 0.858228,
+        "static_note": "exact",
+        "mean_violations": 1.361111,
+        "transition_macro_dyn_f1": 0.729167,
+        "pooled_delta_micro_f1": 0.685714,
+        "add": 0.805556,
+        "remove": 0.777778,
+        "transfer": 0.555556
+      },
+      {
+        "stage": "state_consistency",
+        "label": "+ State Consistency",
+        "static_pooled_ge_f1": 0.91498,
+        "static_note": "exact",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.75,
+        "pooled_delta_micro_f1": 0.75,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 0.0
+      },
+      {
+        "stage": "union_rescoring",
+        "label": "+ Union Candidate Rescoring Only",
+        "static_pooled_ge_f1": 0.91498,
+        "static_note": "static_proxy_state_consistency",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.75,
+        "pooled_delta_micro_f1": 0.75,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 0.0
+      },
+      {
+        "stage": "direct_support_gate",
+        "label": "+ Direct-Support Admissibility Only",
+        "static_pooled_ge_f1": 0.91498,
+        "static_note": "static_proxy_state_consistency",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.711806,
+        "pooled_delta_micro_f1": 0.625,
+        "add": 0.680556,
+        "remove": 0.694444,
+        "transfer": 0.777778
+      },
+      {
+        "stage": "union_and_gate",
+        "label": "+ Union Rescoring and Direct-Support Admissibility",
+        "static_pooled_ge_f1": 0.91498,
+        "static_note": "static_proxy_state_consistency",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 0.75,
+        "pooled_delta_micro_f1": 0.75,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 0.0
+      },
+      {
+        "stage": "medphygraph",
+        "label": "+ Full Transition-Aware Support Selection (MedPhyGraph)",
+        "static_pooled_ge_f1": 0.890688,
+        "static_note": "exact",
+        "mean_violations": 0.0,
+        "transition_macro_dyn_f1": 1.0,
+        "pooled_delta_micro_f1": 1.0,
+        "add": 1.0,
+        "remove": 1.0,
+        "transfer": 1.0
+      }
+    ]
+  }
+}

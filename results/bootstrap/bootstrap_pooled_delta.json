@@ -1,0 +1,566 @@
+{
+  "n_replicates": 10000,
+  "seed": 0,
+  "comparisons": [
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 12,
+      "observed_difference": 0.15384615384615397,
+      "ci95": [
+        0.05555555555555558,
+        0.2666666666666666
+      ],
+      "fraction_above_zero": 0.9919,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Add",
+      "n_scenes": 12,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Remove",
+      "n_scenes": 12,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Transfer",
+      "n_scenes": 12,
+      "observed_difference": 0.6666666666666667,
+      "ci95": [
+        0.33333333333333337,
+        1.0
+      ],
+      "fraction_above_zero": 0.9919975992797839,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 12,
+      "observed_difference": 0.2500000000000001,
+      "ci95": [
+        0.1428571428571429,
+        0.3571428571428571
+      ],
+      "fraction_above_zero": 0.9997,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Add",
+      "n_scenes": 12,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Remove",
+      "n_scenes": 12,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Transfer",
+      "n_scenes": 12,
+      "observed_difference": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 12,
+      "observed_difference": 0.4545454545454546,
+      "ci95": [
+        0.3571428571428571,
+        0.5263157894736843
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Add",
+      "n_scenes": 12,
+      "observed_difference": 0.3944444444444445,
+      "ci95": [
+        0.20000000000000007,
+        0.6
+      ],
+      "fraction_above_zero": 0.9922984596919384,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Remove",
+      "n_scenes": 12,
+      "observed_difference": 0.09999999999999998,
+      "ci95": [
+        0.0,
+        0.1721428571428468
+      ],
+      "fraction_above_zero": 0.8867,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Transfer",
+      "n_scenes": 12,
+      "observed_difference": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 12,
+      "observed_difference": 0.3142857142857143,
+      "ci95": [
+        0.2558139534883721,
+        0.36363636363636365
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Add",
+      "n_scenes": 12,
+      "observed_difference": 0.19444444444444453,
+      "ci95": [
+        0.0,
+        0.33333333333333337
+      ],
+      "fraction_above_zero": 0.9702940588117623,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Remove",
+      "n_scenes": 12,
+      "observed_difference": 0.2222222222222222,
+      "ci95": [
+        0.1428571428571429,
+        0.29166666666666674
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Transfer",
+      "n_scenes": 12,
+      "observed_difference": 0.44444444444444453,
+      "ci95": [
+        0.38888888888888895,
+        0.5
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 12,
+      "observed_difference": 0.2500000000000001,
+      "ci95": [
+        0.1428571428571429,
+        0.3571428571428571
+      ],
+      "fraction_above_zero": 0.9996,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Add",
+      "n_scenes": 12,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Remove",
+      "n_scenes": 12,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "isaac_hc",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Transfer",
+      "n_scenes": 12,
+      "observed_difference": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 18,
+      "observed_difference": 0.046511627906976716,
+      "ci95": [
+        0.0,
+        0.08695652173913038
+      ],
+      "fraction_above_zero": 0.885,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Add",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Remove",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Logistic final",
+      "metric": "Transfer",
+      "n_scenes": 18,
+      "observed_difference": 0.2222222222222222,
+      "ci95": [
+        0.0,
+        0.4
+      ],
+      "fraction_above_zero": 0.8867886788678868,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 18,
+      "observed_difference": 0.2500000000000001,
+      "ci95": [
+        0.16666666666666674,
+        0.33333333333333337
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Add",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Remove",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs Random Forest final",
+      "metric": "Transfer",
+      "n_scenes": 18,
+      "observed_difference": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 18,
+      "observed_difference": 0.2500000000000001,
+      "ci95": [
+        0.16666666666666674,
+        0.34615384615384615
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Add",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Remove",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs MLP final",
+      "metric": "Transfer",
+      "n_scenes": 18,
+      "observed_difference": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 18,
+      "observed_difference": 0.2727272727272728,
+      "ci95": [
+        0.23076923076923073,
+        0.31034482758620696
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Add",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Remove",
+      "n_scenes": 18,
+      "observed_difference": 0.2962962962962964,
+      "ci95": [
+        0.2666666666666666,
+        0.33333333333333337
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph independent",
+      "metric": "Transfer",
+      "n_scenes": 18,
+      "observed_difference": 0.37037037037037046,
+      "ci95": [
+        0.33333333333333337,
+        0.40000000000000013
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Pooled Delta Micro-F1",
+      "n_scenes": 18,
+      "observed_difference": 0.2500000000000001,
+      "ci95": [
+        0.16666666666666674,
+        0.33333333333333337
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Add",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Remove",
+      "n_scenes": 18,
+      "observed_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "fraction_above_zero": 0.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": false
+    },
+    {
+      "corpus": "procedural",
+      "comparison": "MedPhyGraph vs HealthDyPhyGraph State Consistency",
+      "metric": "Transfer",
+      "n_scenes": 18,
+      "observed_difference": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "fraction_above_zero": 1.0,
+      "fraction_below_zero": 0.0,
+      "ci_excludes_zero": true
+    }
+  ]
+}

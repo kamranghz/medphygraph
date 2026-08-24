@@ -1,0 +1,238 @@
+{
+  "corpora": {
+    "procedural": {
+      "geometry_rule": {
+        "independent": {
+          "scene_macro_ge_f1": 0.827564,
+          "precision": 0.892578,
+          "recall": 0.777761,
+          "violations": 0.0,
+          "n_scenes": 54
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.827564,
+          "precision": 0.892578,
+          "recall": 0.777761,
+          "violations": 0.0,
+          "n_scenes": 54
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.828383,
+          "precision": 0.894422,
+          "recall": 0.777752,
+          "violations": 0.0,
+          "n_scenes": 36
+        }
+      },
+      "logistic": {
+        "independent": {
+          "scene_macro_ge_f1": 0.877307,
+          "precision": 0.794544,
+          "recall": 1.0,
+          "violations": 4.092593,
+          "n_scenes": 54
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.978558,
+          "precision": 1.0,
+          "recall": 0.958884,
+          "violations": 0.0,
+          "n_scenes": 54
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.95341,
+          "precision": 0.974702,
+          "recall": 0.933861,
+          "violations": 0.0,
+          "n_scenes": 36
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "scene_macro_ge_f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "violations": 0.5,
+          "n_scenes": 54
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.978558,
+          "precision": 1.0,
+          "recall": 0.958884,
+          "violations": 0.0,
+          "n_scenes": 54
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.978707,
+          "precision": 1.0,
+          "recall": 0.959159,
+          "violations": 0.0,
+          "n_scenes": 36
+        }
+      },
+      "mlp": {
+        "independent": {
+          "scene_macro_ge_f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "violations": 0.5,
+          "n_scenes": 54
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.978558,
+          "precision": 1.0,
+          "recall": 0.958884,
+          "violations": 0.0,
+          "n_scenes": 54
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.978707,
+          "precision": 1.0,
+          "recall": 0.959159,
+          "violations": 0.0,
+          "n_scenes": 36
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "scene_macro_ge_f1": 0.96036,
+          "precision": 0.92564,
+          "recall": 1.0,
+          "violations": 1.462963,
+          "n_scenes": 54
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.978558,
+          "precision": 1.0,
+          "recall": 0.958884,
+          "violations": 0.0,
+          "n_scenes": 54
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.948579,
+          "precision": 0.969652,
+          "recall": 0.929232,
+          "violations": 0.0,
+          "n_scenes": 36
+        }
+      }
+    },
+    "isaac_hc": {
+      "geometry_rule": {
+        "independent": {
+          "scene_macro_ge_f1": 0.77804,
+          "precision": 0.843307,
+          "recall": 0.729342,
+          "violations": 0.472222,
+          "n_scenes": 36
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.795299,
+          "precision": 0.882278,
+          "recall": 0.729342,
+          "violations": 0.0,
+          "n_scenes": 36
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.800516,
+          "precision": 0.888337,
+          "recall": 0.733778,
+          "violations": 0.0,
+          "n_scenes": 24
+        }
+      },
+      "logistic": {
+        "independent": {
+          "scene_macro_ge_f1": 0.858196,
+          "precision": 0.810174,
+          "recall": 0.917344,
+          "violations": 2.694444,
+          "n_scenes": 36
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.93817,
+          "precision": 1.0,
+          "recall": 0.887368,
+          "violations": 0.0,
+          "n_scenes": 36
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.928226,
+          "precision": 0.989583,
+          "recall": 0.877752,
+          "violations": 0.0,
+          "n_scenes": 24
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "scene_macro_ge_f1": 0.911296,
+          "precision": 0.966181,
+          "recall": 0.868392,
+          "violations": 0.472222,
+          "n_scenes": 36
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.923057,
+          "precision": 1.0,
+          "recall": 0.862134,
+          "violations": 0.0,
+          "n_scenes": 36
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.923227,
+          "precision": 1.0,
+          "recall": 0.862369,
+          "violations": 0.0,
+          "n_scenes": 24
+        }
+      },
+      "mlp": {
+        "independent": {
+          "scene_macro_ge_f1": 0.900819,
+          "precision": 0.914555,
+          "recall": 0.890756,
+          "violations": 1.916667,
+          "n_scenes": 36
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.891669,
+          "precision": 0.965881,
+          "recall": 0.832818,
+          "violations": 0.0,
+          "n_scenes": 36
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.870229,
+          "precision": 0.973064,
+          "recall": 0.800706,
+          "violations": 0.0,
+          "n_scenes": 24
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "scene_macro_ge_f1": 0.867856,
+          "precision": 0.879506,
+          "recall": 0.862134,
+          "violations": 1.361111,
+          "n_scenes": 36
+        },
+        "state_consistency": {
+          "scene_macro_ge_f1": 0.923057,
+          "precision": 1.0,
+          "recall": 0.862134,
+          "violations": 0.0,
+          "n_scenes": 36
+        },
+        "transition_aware": {
+          "scene_macro_ge_f1": 0.897434,
+          "precision": 0.972748,
+          "recall": 0.837782,
+          "violations": 0.0,
+          "n_scenes": 24
+        }
+      }
+    }
+  }
+}

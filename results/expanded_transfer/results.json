@@ -1,0 +1,805 @@
+{
+  "protocol": "expanded_transfer_v1",
+  "baseline_id": "FROZEN_BASELINE_V1",
+  "manifest_sha256": "58ab39d4d2aee7228b7c43b9f6b611748ed75257e221563a1682e492b078af7b",
+  "original_canonical_set": {
+    "n_cases": 15,
+    "n_semantic_templates": 2,
+    "templates": [
+      "monitor::floor->bench",
+      "tray::floor->bench"
+    ],
+    "full_medphygraph_transfer_f1": 1.0,
+    "note": "Unchanged. Not retroactively redefined by this experiment."
+  },
+  "expanded_set": {
+    "n_cases_considered": 352,
+    "n_cases_accepted_predeclared": 217,
+    "n_cases_evaluated": 217,
+    "n_cases_primary_eligible": 217,
+    "n_semantic_templates": 19,
+    "semantic_templates": [
+      "cart::floor->bench",
+      "cart::floor->cabinet",
+      "defib::floor->bench",
+      "defib::floor->cabinet",
+      "humidifier::floor->bench",
+      "humidifier::floor->cabinet",
+      "iv_pole::floor->bench",
+      "iv_pole::floor->cabinet",
+      "monitor::floor->cabinet",
+      "respiratory::floor->bench",
+      "screen::floor->bench",
+      "tray::floor->cabinet",
+      "ultrasound::floor->cabinet",
+      "utility::floor->bench",
+      "utility::floor->cabinet",
+      "walker::floor->bench",
+      "walker::floor->cabinet",
+      "wheelchair::floor->bench",
+      "wheelchair::floor->cabinet"
+    ],
+    "subject_categories": [
+      "cart",
+      "defib",
+      "humidifier",
+      "iv_pole",
+      "monitor",
+      "respiratory",
+      "screen",
+      "tray",
+      "ultrasound",
+      "utility",
+      "walker",
+      "wheelchair"
+    ],
+    "old_host_categories": [
+      "floor"
+    ],
+    "new_host_categories": [
+      "bench",
+      "cabinet"
+    ],
+    "scene_families_base_scenes": [
+      "tw_examination_room_00",
+      "tw_examination_room_01",
+      "tw_examination_room_02",
+      "tw_i4h_examination_room_00",
+      "tw_i4h_examination_room_01",
+      "tw_i4h_examination_room_02",
+      "tw_i4h_icu_like_room_00",
+      "tw_i4h_icu_like_room_01",
+      "tw_i4h_icu_like_room_02",
+      "tw_i4h_operating_room_00",
+      "tw_i4h_operating_room_01",
+      "tw_i4h_operating_room_02",
+      "tw_i4h_patient_room_00",
+      "tw_i4h_patient_room_01",
+      "tw_i4h_patient_room_02",
+      "tw_icu_00",
+      "tw_icu_01",
+      "tw_icu_02",
+      "tw_medical_laboratory_00",
+      "tw_medical_laboratory_01",
+      "tw_medical_laboratory_02",
+      "tw_operating_room_00",
+      "tw_operating_room_01",
+      "tw_operating_room_02",
+      "tw_patient_room_00",
+      "tw_patient_room_01",
+      "tw_patient_room_02",
+      "tw_recovery_room_00",
+      "tw_recovery_room_01",
+      "tw_recovery_room_02"
+    ],
+    "corpora": [
+      "isaac_hc",
+      "procedural"
+    ],
+    "layout_instance_counts_by_template": {
+      "iv_pole::floor->bench": 18,
+      "iv_pole::floor->cabinet": 18,
+      "monitor::floor->cabinet": 30,
+      "tray::floor->cabinet": 30,
+      "walker::floor->bench": 9,
+      "walker::floor->cabinet": 9,
+      "wheelchair::floor->bench": 20,
+      "wheelchair::floor->cabinet": 20,
+      "cart::floor->bench": 13,
+      "cart::floor->cabinet": 14,
+      "ultrasound::floor->cabinet": 3,
+      "utility::floor->bench": 6,
+      "utility::floor->cabinet": 6,
+      "defib::floor->bench": 3,
+      "defib::floor->cabinet": 3,
+      "humidifier::floor->bench": 3,
+      "humidifier::floor->cabinet": 3,
+      "respiratory::floor->bench": 3,
+      "screen::floor->bench": 6
+    }
+  },
+  "candidate_generation_diagnostics": {
+    "n_transfer_destinations": 217,
+    "dest_in_current_native_candidates_count": 217,
+    "dest_in_current_native_candidates_recall": 1.0,
+    "dest_in_union_count": 217,
+    "dest_in_union_recall": 1.0,
+    "n_transfers_impossible_destination_absent_from_union": 0
+  },
+  "method_mode_summary_all_case_primary": {
+    "geometry_rule::independent": {
+      "scorer": "geometry_rule",
+      "label": "Geometry Rule",
+      "mode": "independent",
+      "n": 217,
+      "transfer_exact_success_count": 187,
+      "transfer_exact_success_rate": 0.861751,
+      "mean_transfer_f1_per_case": 0.924424,
+      "add_precision": 1.0,
+      "add_recall": 1.0,
+      "add_f1_pooled": 1.0,
+      "remove_precision": 0.820175,
+      "remove_recall": 0.861751,
+      "remove_f1_pooled": 0.840449,
+      "transfer_precision_pooled": 0.907865,
+      "transfer_recall_pooled": 0.930876,
+      "transfer_f1_pooled": 0.919226,
+      "mean_graph_constraint_violations": null
+    },
+    "logistic::independent": {
+      "scorer": "logistic",
+      "label": "Logistic Regression",
+      "mode": "independent",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.588786,
+      "add_precision": 0.990826,
+      "add_recall": 0.995392,
+      "add_f1_pooled": 0.993103,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.656535,
+      "transfer_recall_pooled": 0.497696,
+      "transfer_f1_pooled": 0.566186,
+      "mean_graph_constraint_violations": null
+    },
+    "random_forest::independent": {
+      "scorer": "random_forest",
+      "label": "Random Forest",
+      "mode": "independent",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": null
+    },
+    "mlp::independent": {
+      "scorer": "mlp",
+      "label": "MLP",
+      "mode": "independent",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": null
+    },
+    "health_dyphygraph::independent": {
+      "scorer": "health_dyphygraph",
+      "label": "MedPhyGraph",
+      "mode": "independent",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.642089,
+      "add_precision": 1.0,
+      "add_recall": 1.0,
+      "add_f1_pooled": 1.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.871486,
+      "transfer_recall_pooled": 0.5,
+      "transfer_f1_pooled": 0.635432,
+      "mean_graph_constraint_violations": null
+    },
+    "geometry_rule::state_consistency": {
+      "scorer": "geometry_rule",
+      "label": "Geometry Rule",
+      "mode": "state_consistency",
+      "n": 217,
+      "transfer_exact_success_count": 187,
+      "transfer_exact_success_rate": 0.861751,
+      "mean_transfer_f1_per_case": 0.930876,
+      "add_precision": 1.0,
+      "add_recall": 1.0,
+      "add_f1_pooled": 1.0,
+      "remove_precision": 0.861751,
+      "remove_recall": 0.861751,
+      "remove_f1_pooled": 0.861751,
+      "transfer_precision_pooled": 0.930876,
+      "transfer_recall_pooled": 0.930876,
+      "transfer_f1_pooled": 0.930876,
+      "mean_graph_constraint_violations": null
+    },
+    "logistic::state_consistency": {
+      "scorer": "logistic",
+      "label": "Logistic Regression",
+      "mode": "state_consistency",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": null
+    },
+    "random_forest::state_consistency": {
+      "scorer": "random_forest",
+      "label": "Random Forest",
+      "mode": "state_consistency",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": null
+    },
+    "mlp::state_consistency": {
+      "scorer": "mlp",
+      "label": "MLP",
+      "mode": "state_consistency",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": null
+    },
+    "health_dyphygraph::state_consistency": {
+      "scorer": "health_dyphygraph",
+      "label": "MedPhyGraph",
+      "mode": "state_consistency",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": null
+    },
+    "geometry_rule::transition_aware": {
+      "scorer": "geometry_rule",
+      "label": "Geometry Rule",
+      "mode": "transition_aware",
+      "n": 217,
+      "transfer_exact_success_count": 187,
+      "transfer_exact_success_rate": 0.861751,
+      "mean_transfer_f1_per_case": 0.930876,
+      "add_precision": 1.0,
+      "add_recall": 1.0,
+      "add_f1_pooled": 1.0,
+      "remove_precision": 0.861751,
+      "remove_recall": 0.861751,
+      "remove_f1_pooled": 0.861751,
+      "transfer_precision_pooled": 0.930876,
+      "transfer_recall_pooled": 0.930876,
+      "transfer_f1_pooled": 0.930876,
+      "mean_graph_constraint_violations": 0.0
+    },
+    "logistic::transition_aware": {
+      "scorer": "logistic",
+      "label": "Logistic Regression",
+      "mode": "transition_aware",
+      "n": 217,
+      "transfer_exact_success_count": 142,
+      "transfer_exact_success_rate": 0.654378,
+      "mean_transfer_f1_per_case": 0.654378,
+      "add_precision": 1.0,
+      "add_recall": 0.654378,
+      "add_f1_pooled": 0.791086,
+      "remove_precision": 1.0,
+      "remove_recall": 0.654378,
+      "remove_f1_pooled": 0.791086,
+      "transfer_precision_pooled": 1.0,
+      "transfer_recall_pooled": 0.654378,
+      "transfer_f1_pooled": 0.791086,
+      "mean_graph_constraint_violations": 0.0
+    },
+    "random_forest::transition_aware": {
+      "scorer": "random_forest",
+      "label": "Random Forest",
+      "mode": "transition_aware",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": 0.0
+    },
+    "mlp::transition_aware": {
+      "scorer": "mlp",
+      "label": "MLP",
+      "mode": "transition_aware",
+      "n": 217,
+      "transfer_exact_success_count": 0,
+      "transfer_exact_success_rate": 0.0,
+      "mean_transfer_f1_per_case": 0.0,
+      "add_precision": 0.0,
+      "add_recall": 0.0,
+      "add_f1_pooled": 0.0,
+      "remove_precision": 0.0,
+      "remove_recall": 0.0,
+      "remove_f1_pooled": 0.0,
+      "transfer_precision_pooled": 0.0,
+      "transfer_recall_pooled": 0.0,
+      "transfer_f1_pooled": 0.0,
+      "mean_graph_constraint_violations": 0.0
+    },
+    "health_dyphygraph::transition_aware": {
+      "scorer": "health_dyphygraph",
+      "label": "MedPhyGraph",
+      "mode": "transition_aware",
+      "n": 217,
+      "transfer_exact_success_count": 217,
+      "transfer_exact_success_rate": 1.0,
+      "mean_transfer_f1_per_case": 0.998157,
+      "add_precision": 1.0,
+      "add_recall": 1.0,
+      "add_f1_pooled": 1.0,
+      "remove_precision": 0.990868,
+      "remove_recall": 1.0,
+      "remove_f1_pooled": 0.995413,
+      "transfer_precision_pooled": 0.995413,
+      "transfer_recall_pooled": 1.0,
+      "transfer_f1_pooled": 0.997701,
+      "mean_graph_constraint_violations": 0.0
+    }
+  },
+  "per_corpus_transition_aware": {
+    "isaac_hc": {
+      "geometry_rule": {
+        "n": 81,
+        "transfer_f1_pooled": 0.925926,
+        "transfer_exact_success_rate": 0.851852
+      },
+      "logistic": {
+        "n": 81,
+        "transfer_f1_pooled": 0.981132,
+        "transfer_exact_success_rate": 0.962963
+      },
+      "random_forest": {
+        "n": 81,
+        "transfer_f1_pooled": 0.0,
+        "transfer_exact_success_rate": 0.0
+      },
+      "mlp": {
+        "n": 81,
+        "transfer_f1_pooled": 0.0,
+        "transfer_exact_success_rate": 0.0
+      },
+      "health_dyphygraph": {
+        "n": 81,
+        "transfer_f1_pooled": 0.993865,
+        "transfer_exact_success_rate": 1.0
+      }
+    },
+    "procedural": {
+      "geometry_rule": {
+        "n": 136,
+        "transfer_f1_pooled": 0.933824,
+        "transfer_exact_success_rate": 0.867647
+      },
+      "logistic": {
+        "n": 136,
+        "transfer_f1_pooled": 0.64,
+        "transfer_exact_success_rate": 0.470588
+      },
+      "random_forest": {
+        "n": 136,
+        "transfer_f1_pooled": 0.0,
+        "transfer_exact_success_rate": 0.0
+      },
+      "mlp": {
+        "n": 136,
+        "transfer_f1_pooled": 0.0,
+        "transfer_exact_success_rate": 0.0
+      },
+      "health_dyphygraph": {
+        "n": 136,
+        "transfer_f1_pooled": 1.0,
+        "transfer_exact_success_rate": 1.0
+      }
+    }
+  },
+  "per_template": [
+    {
+      "semantic_template": "cart::floor->bench",
+      "n_layout_instances": 13,
+      "corpora": [
+        "isaac_hc",
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.846154,
+      "logistic_mean_transfer_f1": 0.846154,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "cart::floor->cabinet",
+      "n_layout_instances": 14,
+      "corpora": [
+        "isaac_hc",
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "defib::floor->bench",
+      "n_layout_instances": 3,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "defib::floor->cabinet",
+      "n_layout_instances": 3,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "humidifier::floor->bench",
+      "n_layout_instances": 3,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "humidifier::floor->cabinet",
+      "n_layout_instances": 3,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "iv_pole::floor->bench",
+      "n_layout_instances": 18,
+      "corpora": [
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.5,
+      "logistic_mean_transfer_f1": 0.5,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "iv_pole::floor->cabinet",
+      "n_layout_instances": 18,
+      "corpora": [
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.5,
+      "logistic_mean_transfer_f1": 0.5,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "monitor::floor->cabinet",
+      "n_layout_instances": 30,
+      "corpora": [
+        "isaac_hc",
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 0.5,
+      "geometry_rule_mean_transfer_f1": 0.75,
+      "logistic_success_rate": 0.7,
+      "logistic_mean_transfer_f1": 0.7,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "respiratory::floor->bench",
+      "n_layout_instances": 3,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.666667,
+      "logistic_mean_transfer_f1": 0.666667,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "screen::floor->bench",
+      "n_layout_instances": 6,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "tray::floor->cabinet",
+      "n_layout_instances": 30,
+      "corpora": [
+        "isaac_hc",
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 0.5,
+      "geometry_rule_mean_transfer_f1": 0.75,
+      "logistic_success_rate": 0.7,
+      "logistic_mean_transfer_f1": 0.7,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "ultrasound::floor->cabinet",
+      "n_layout_instances": 3,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "utility::floor->bench",
+      "n_layout_instances": 6,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 0.966667
+    },
+    {
+      "semantic_template": "utility::floor->cabinet",
+      "n_layout_instances": 6,
+      "corpora": [
+        "isaac_hc"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 1.0,
+      "logistic_mean_transfer_f1": 1.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 0.966667
+    },
+    {
+      "semantic_template": "walker::floor->bench",
+      "n_layout_instances": 9,
+      "corpora": [
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.0,
+      "logistic_mean_transfer_f1": 0.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "walker::floor->cabinet",
+      "n_layout_instances": 9,
+      "corpora": [
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.0,
+      "logistic_mean_transfer_f1": 0.0,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "wheelchair::floor->bench",
+      "n_layout_instances": 20,
+      "corpora": [
+        "isaac_hc",
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.55,
+      "logistic_mean_transfer_f1": 0.55,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    },
+    {
+      "semantic_template": "wheelchair::floor->cabinet",
+      "n_layout_instances": 20,
+      "corpora": [
+        "isaac_hc",
+        "procedural"
+      ],
+      "geometry_rule_success_rate": 1.0,
+      "geometry_rule_mean_transfer_f1": 1.0,
+      "logistic_success_rate": 0.55,
+      "logistic_mean_transfer_f1": 0.55,
+      "random_forest_success_rate": 0.0,
+      "random_forest_mean_transfer_f1": 0.0,
+      "mlp_success_rate": 0.0,
+      "mlp_mean_transfer_f1": 0.0,
+      "health_dyphygraph_success_rate": 1.0,
+      "health_dyphygraph_mean_transfer_f1": 1.0
+    }
+  ],
+  "failure_analysis_summary": {},
+  "n_failures_health_dyphygraph_transition_aware": 0
+}

@@ -1,0 +1,133 @@
+{
+  "pairs": [
+    {
+      "verification": "verification/core/results/processed/final_all_methods.csv",
+      "evaluation": "evaluation/frozen_results/processed/final_all_methods.csv",
+      "sha256_verification": "036f3e7b06dea01f43d0acc95bbc39d7b3f2430e6e40c20c178305fbed871760",
+      "sha256_evaluation": "036f3e7b06dea01f43d0acc95bbc39d7b3f2430e6e40c20c178305fbed871760",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/results/processed/final_all_methods.json",
+      "evaluation": "evaluation/frozen_results/processed/final_all_methods.json",
+      "sha256_verification": "fc43c75351212d3b7532edd9dd78bfb218a9dc4d872922b2548826f09fff8655",
+      "sha256_evaluation": "fc43c75351212d3b7532edd9dd78bfb218a9dc4d872922b2548826f09fff8655",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/results/processed/refinement_ablation.csv",
+      "evaluation": "evaluation/frozen_results/processed/refinement_ablation.csv",
+      "sha256_verification": "dcad952b79d4eaf12ca1287af4b8a1c2d488b68aac8f2e607089878918509d94",
+      "sha256_evaluation": "dcad952b79d4eaf12ca1287af4b8a1c2d488b68aac8f2e607089878918509d94",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/results/processed/refinement_ablation.json",
+      "evaluation": "evaluation/frozen_results/processed/refinement_ablation.json",
+      "sha256_verification": "f1f8de19a806e0e1bcecfd44966639598e214235e502a1b26eca2626c42988d9",
+      "sha256_evaluation": "f1f8de19a806e0e1bcecfd44966639598e214235e502a1b26eca2626c42988d9",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/statistics/bootstrap_summary.md",
+      "evaluation": "evaluation/frozen_results/statistics/bootstrap_summary.md",
+      "sha256_verification": "00abdce42ea68cb447096a37eb73eeed33a273a404f1ac899b9e0d0965baf056",
+      "sha256_evaluation": "00abdce42ea68cb447096a37eb73eeed33a273a404f1ac899b9e0d0965baf056",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/statistics/bootstrap_scene_ids.json",
+      "evaluation": "evaluation/frozen_results/statistics/bootstrap_scene_ids.json",
+      "sha256_verification": "9ad6732ba2401c5370ac2c8ca0c354f36958f6a3350a4ab8b8d6f9bf6a8daddb",
+      "sha256_evaluation": "9ad6732ba2401c5370ac2c8ca0c354f36958f6a3350a4ab8b8d6f9bf6a8daddb",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/statistics/bootstrap_pooled_delta.json",
+      "evaluation": "evaluation/frozen_results/statistics/bootstrap_pooled_delta.json",
+      "sha256_verification": "2bf25a2af98e34e2cd846bb9ffbf3c2b77be8928ca3163dcc203cf2bef1e9819",
+      "sha256_evaluation": "2bf25a2af98e34e2cd846bb9ffbf3c2b77be8928ca3163dcc203cf2bef1e9819",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/statistics/bootstrap_transition_macro.json",
+      "evaluation": "evaluation/frozen_results/statistics/bootstrap_transition_macro.json",
+      "sha256_verification": "79e353b1542e38f4bc1f343e8c2c534c69cae8967a5d6281a2658143315d27d1",
+      "sha256_evaluation": "79e353b1542e38f4bc1f343e8c2c534c69cae8967a5d6281a2658143315d27d1",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/metrics/empty_set_convention.md",
+      "evaluation": "evaluation/frozen_results/metrics/empty_set_convention.md",
+      "sha256_verification": "fe0651f706915e36fcad07d97560d258dfda01b88aa2a5e044277bed0275c985",
+      "sha256_evaluation": "fe0651f706915e36fcad07d97560d258dfda01b88aa2a5e044277bed0275c985",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/metrics/dynamic_operationwise.json",
+      "evaluation": "evaluation/frozen_results/metrics/dynamic_operationwise.json",
+      "sha256_verification": "8b994be110dc91c5643aac31857b82316d68f08563a45e062c577b7cfc4d457e",
+      "sha256_evaluation": "8b994be110dc91c5643aac31857b82316d68f08563a45e062c577b7cfc4d457e",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/metrics/dynamic_pooled_micro.json",
+      "evaluation": "evaluation/frozen_results/metrics/dynamic_pooled_micro.json",
+      "sha256_verification": "86a76f46531891392d2509f426a3fbd3d089abbd9cedfd2616896a6c7dbf48d7",
+      "sha256_evaluation": "86a76f46531891392d2509f426a3fbd3d089abbd9cedfd2616896a6c7dbf48d7",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/metrics/dynamic_transition_macro.json",
+      "evaluation": "evaluation/frozen_results/metrics/dynamic_transition_macro.json",
+      "sha256_verification": "710dbdc122485fdb419e6666f0a977218287a3660f874142b9bc713b74fe4cef",
+      "sha256_evaluation": "710dbdc122485fdb419e6666f0a977218287a3660f874142b9bc713b74fe4cef",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/metrics/static_pooled_micro.json",
+      "evaluation": "evaluation/frozen_results/metrics/static_pooled_micro.json",
+      "sha256_verification": "def8b4e1c88bd597bf4baf4568f63ce85560f3d8ef3106cba59311088a4b5516",
+      "sha256_evaluation": "def8b4e1c88bd597bf4baf4568f63ce85560f3d8ef3106cba59311088a4b5516",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/metrics/static_macro.json",
+      "evaluation": "evaluation/frozen_results/metrics/static_macro.json",
+      "sha256_verification": "c4ddfca5dcfa57b37eb804a898d705a8fae62074ba31761aed2ec5f35aebdd57",
+      "sha256_evaluation": "c4ddfca5dcfa57b37eb804a898d705a8fae62074ba31761aed2ec5f35aebdd57",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/evaluation_targets/operation_consistent_dynamic_verified_v1.csv",
+      "evaluation": "evaluation/targets/operation_consistent_dynamic_verified_v1.csv",
+      "sha256_verification": "07dc401dd5d04a504356729f9a9f9a0d723bd369d5d5cbd06fd797449b83041f",
+      "sha256_evaluation": "07dc401dd5d04a504356729f9a9f9a0d723bd369d5d5cbd06fd797449b83041f",
+      "identical": true
+    },
+    {
+      "verification": "verification/core/evaluation_targets/operation_consistent_dynamic_verified_v1.json",
+      "evaluation": "evaluation/targets/operation_consistent_dynamic_verified_v1.json",
+      "sha256_verification": "eb6add72dbad0026e9d7b819fc94450648002ca6c1528fbd54f1118c812a4866",
+      "sha256_evaluation": "eb6add72dbad0026e9d7b819fc94450648002ca6c1528fbd54f1118c812a4866",
+      "identical": true
+    },
+    {
+      "verification": "outputs/dyphygraph_health/ablations_hard/ablations_seed0.json",
+      "evaluation": "evaluation/diagnostics/ablations_hard/ablations_seed0.json",
+      "sha256_verification": "b2138226c1cd464d2b9818bac88f728e43a4736bd3ee680fbc5144122ff06968",
+      "sha256_evaluation": "b2138226c1cd464d2b9818bac88f728e43a4736bd3ee680fbc5144122ff06968",
+      "identical": true
+    },
+    {
+      "verification": "outputs/dyphygraph_health/ablations_hard/ablations_seed0.md",
+      "evaluation": "evaluation/diagnostics/ablations_hard/ablations_seed0.md",
+      "sha256_verification": "a79f42cbf17e02e84f2e091910adadfe005b0fecd941d35cdc546c38cdc630e3",
+      "sha256_evaluation": "a79f42cbf17e02e84f2e091910adadfe005b0fecd941d35cdc546c38cdc630e3",
+      "identical": true
+    }
+  ],
+  "all_identical": true,
+  "mismatches": [],
+  "missing": []
+}

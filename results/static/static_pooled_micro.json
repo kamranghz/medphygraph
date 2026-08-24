@@ -1,0 +1,328 @@
+{
+  "corpora": {
+    "procedural": {
+      "geometry_rule": {
+        "independent": {
+          "pooled_ge_f1": 0.805301,
+          "precision": 0.883669,
+          "recall": 0.7397,
+          "false_support_rate": 0.107422,
+          "violations": 0.0,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 447
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.805301,
+          "precision": 0.883669,
+          "recall": 0.7397,
+          "false_support_rate": 0.107422,
+          "violations": 0.0,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 447
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.807339,
+          "precision": 0.885906,
+          "recall": 0.741573,
+          "false_support_rate": 0.105578,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 356,
+          "total_pred_edges": 298
+        }
+      },
+      "logistic": {
+        "independent": {
+          "pooled_ge_f1": 0.846276,
+          "precision": 0.733516,
+          "recall": 1.0,
+          "false_support_rate": 0.205456,
+          "violations": 4.092593,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 728
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.974063,
+          "precision": 1.0,
+          "recall": 0.949438,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 507
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.95389,
+          "precision": 0.97929,
+          "recall": 0.929775,
+          "false_support_rate": 0.025298,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 356,
+          "total_pred_edges": 338
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "pooled_ge_f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "false_support_rate": 0.0,
+          "violations": 0.5,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 534
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.974063,
+          "precision": 1.0,
+          "recall": 0.949438,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 507
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.974063,
+          "precision": 1.0,
+          "recall": 0.949438,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 356,
+          "total_pred_edges": 338
+        }
+      },
+      "mlp": {
+        "independent": {
+          "pooled_ge_f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "false_support_rate": 0.0,
+          "violations": 0.5,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 534
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.974063,
+          "precision": 1.0,
+          "recall": 0.949438,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 507
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.974063,
+          "precision": 1.0,
+          "recall": 0.949438,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 356,
+          "total_pred_edges": 338
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "pooled_ge_f1": 0.953571,
+          "precision": 0.911263,
+          "recall": 1.0,
+          "false_support_rate": 0.07436,
+          "violations": 1.462963,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 586
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.974063,
+          "precision": 1.0,
+          "recall": 0.949438,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 54,
+          "total_gt_edges": 534,
+          "total_pred_edges": 507
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.948127,
+          "precision": 0.973373,
+          "recall": 0.924157,
+          "false_support_rate": 0.030348,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 356,
+          "total_pred_edges": 338
+        }
+      }
+    },
+    "isaac_hc": {
+      "geometry_rule": {
+        "independent": {
+          "pooled_ge_f1": 0.769852,
+          "precision": 0.83871,
+          "recall": 0.711443,
+          "false_support_rate": 0.156693,
+          "violations": 0.472222,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 341
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.787879,
+          "precision": 0.882716,
+          "recall": 0.711443,
+          "false_support_rate": 0.117722,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 324
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.793388,
+          "precision": 0.888889,
+          "recall": 0.716418,
+          "false_support_rate": 0.111663,
+          "violations": 0.0,
+          "n_scenes": 24,
+          "total_gt_edges": 268,
+          "total_pred_edges": 216
+        }
+      },
+      "logistic": {
+        "independent": {
+          "pooled_ge_f1": 0.850174,
+          "precision": 0.797386,
+          "recall": 0.910448,
+          "false_support_rate": 0.189826,
+          "violations": 2.694444,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 459
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.932271,
+          "precision": 1.0,
+          "recall": 0.873134,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 351
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.924303,
+          "precision": 0.991453,
+          "recall": 0.865672,
+          "false_support_rate": 0.010417,
+          "violations": 0.0,
+          "n_scenes": 24,
+          "total_gt_edges": 268,
+          "total_pred_edges": 234
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "pooled_ge_f1": 0.902375,
+          "precision": 0.960674,
+          "recall": 0.850746,
+          "false_support_rate": 0.033819,
+          "violations": 0.472222,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 356
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.91498,
+          "precision": 1.0,
+          "recall": 0.843284,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 339
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.91498,
+          "precision": 1.0,
+          "recall": 0.843284,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 24,
+          "total_gt_edges": 268,
+          "total_pred_edges": 226
+        }
+      },
+      "mlp": {
+        "independent": {
+          "pooled_ge_f1": 0.885246,
+          "precision": 0.897698,
+          "recall": 0.873134,
+          "false_support_rate": 0.085445,
+          "violations": 1.916667,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 391
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.882591,
+          "precision": 0.964602,
+          "recall": 0.813433,
+          "false_support_rate": 0.034119,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 339
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.863071,
+          "precision": 0.971963,
+          "recall": 0.776119,
+          "false_support_rate": 0.026936,
+          "violations": 0.0,
+          "n_scenes": 24,
+          "total_gt_edges": 268,
+          "total_pred_edges": 214
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "pooled_ge_f1": 0.858228,
+          "precision": 0.873711,
+          "recall": 0.843284,
+          "false_support_rate": 0.120494,
+          "violations": 1.361111,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 388
+        },
+        "state_consistency": {
+          "pooled_ge_f1": 0.91498,
+          "precision": 1.0,
+          "recall": 0.843284,
+          "false_support_rate": 0.0,
+          "violations": 0.0,
+          "n_scenes": 36,
+          "total_gt_edges": 402,
+          "total_pred_edges": 339
+        },
+        "transition_aware": {
+          "pooled_ge_f1": 0.890688,
+          "precision": 0.973451,
+          "recall": 0.820896,
+          "false_support_rate": 0.027252,
+          "violations": 0.0,
+          "n_scenes": 24,
+          "total_gt_edges": 268,
+          "total_pred_edges": 226
+        }
+      }
+    }
+  }
+}

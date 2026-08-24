@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "MedPhyGraph: Counterfactual Support-Graph Maintenance for Dynamic Built-Environment Digital Twins"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Gholizadeh HamlAbadi
+    given-names: Kamran
+  - family-names: Vahdati
+    given-names: Monica
+  - family-names: El Saddik
+    given-names: Abdulmotaleb
+version: 1.0.0
+date-released: 2026-08-15
+license: MIT
+repository-code: "https://github.com/MedPhyGraph/MedPhyGraph"
+keywords:
+  - digital twins
+  - scene graphs
+  - counterfactual-evidence
+  - healthcare environments
+  - support relations

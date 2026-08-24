@@ -1,0 +1,466 @@
+{
+  "seed": 0,
+  "epochs": 20,
+  "A1_incompleteness": [
+    {
+      "ratio": 1.0,
+      "dyphygraph": {
+        "precision": 0.917,
+        "recall": 1.0,
+        "f1": 0.957,
+        "fsr": 0.062,
+        "auroc": 1.0,
+        "auprc": 0.977,
+        "ece": 0.144,
+        "tp": 44.0,
+        "fp": 4.0,
+        "fn": 0.0,
+        "tn": 60.0,
+        "f1_ci95": {
+          "mean": 0.957,
+          "ci95_low": 0.914,
+          "ci95_high": 0.99
+        },
+        "best_val_f1": 0.957
+      },
+      "logistic": {
+        "precision": 0.688,
+        "recall": 1.0,
+        "f1": 0.815,
+        "fsr": 0.312,
+        "auroc": 0.898,
+        "auprc": 0.834,
+        "ece": 0.108,
+        "tp": 44.0,
+        "fp": 20.0,
+        "fn": 0.0,
+        "tn": 44.0
+      },
+      "displacement_threshold": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.812,
+        "auprc": 0.82,
+        "ece": 0.299,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "selected_threshold": 0.02500000037252903
+      }
+    },
+    {
+      "ratio": 0.75,
+      "dyphygraph": {
+        "precision": 0.917,
+        "recall": 1.0,
+        "f1": 0.957,
+        "fsr": 0.062,
+        "auroc": 0.993,
+        "auprc": 0.966,
+        "ece": 0.09,
+        "tp": 44.0,
+        "fp": 4.0,
+        "fn": 0.0,
+        "tn": 60.0,
+        "f1_ci95": {
+          "mean": 0.957,
+          "ci95_low": 0.914,
+          "ci95_high": 0.99
+        },
+        "best_val_f1": 0.957
+      },
+      "logistic": {
+        "precision": 0.688,
+        "recall": 1.0,
+        "f1": 0.815,
+        "fsr": 0.312,
+        "auroc": 0.903,
+        "auprc": 0.838,
+        "ece": 0.108,
+        "tp": 44.0,
+        "fp": 20.0,
+        "fn": 0.0,
+        "tn": 44.0
+      },
+      "displacement_threshold": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.812,
+        "auprc": 0.82,
+        "ece": 0.299,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "selected_threshold": 0.02500000037252903
+      }
+    },
+    {
+      "ratio": 0.5,
+      "dyphygraph": {
+        "precision": 0.915,
+        "recall": 0.977,
+        "f1": 0.945,
+        "fsr": 0.062,
+        "auroc": 0.986,
+        "auprc": 0.955,
+        "ece": 0.078,
+        "tp": 43.0,
+        "fp": 4.0,
+        "fn": 1.0,
+        "tn": 60.0,
+        "f1_ci95": {
+          "mean": 0.946,
+          "ci95_low": 0.889,
+          "ci95_high": 0.988
+        },
+        "best_val_f1": 0.957
+      },
+      "logistic": {
+        "precision": 0.688,
+        "recall": 1.0,
+        "f1": 0.815,
+        "fsr": 0.312,
+        "auroc": 0.901,
+        "auprc": 0.836,
+        "ece": 0.108,
+        "tp": 44.0,
+        "fp": 20.0,
+        "fn": 0.0,
+        "tn": 44.0
+      },
+      "displacement_threshold": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.812,
+        "auprc": 0.82,
+        "ece": 0.299,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "selected_threshold": 0.02500000037252903
+      }
+    },
+    {
+      "ratio": 0.25,
+      "dyphygraph": {
+        "precision": 0.917,
+        "recall": 1.0,
+        "f1": 0.957,
+        "fsr": 0.062,
+        "auroc": 0.985,
+        "auprc": 0.954,
+        "ece": 0.092,
+        "tp": 44.0,
+        "fp": 4.0,
+        "fn": 0.0,
+        "tn": 60.0,
+        "f1_ci95": {
+          "mean": 0.957,
+          "ci95_low": 0.914,
+          "ci95_high": 0.99
+        },
+        "best_val_f1": 0.945
+      },
+      "logistic": {
+        "precision": 0.683,
+        "recall": 0.977,
+        "f1": 0.804,
+        "fsr": 0.312,
+        "auroc": 0.899,
+        "auprc": 0.832,
+        "ece": 0.099,
+        "tp": 43.0,
+        "fp": 20.0,
+        "fn": 1.0,
+        "tn": 44.0
+      },
+      "displacement_threshold": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.812,
+        "auprc": 0.82,
+        "ece": 0.299,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "selected_threshold": 0.02500000037252903
+      }
+    },
+    {
+      "ratio": 0.1,
+      "dyphygraph": {
+        "precision": 0.909,
+        "recall": 0.909,
+        "f1": 0.909,
+        "fsr": 0.062,
+        "auroc": 0.942,
+        "auprc": 0.85,
+        "ece": 0.102,
+        "tp": 40.0,
+        "fp": 4.0,
+        "fn": 4.0,
+        "tn": 60.0,
+        "f1_ci95": {
+          "mean": 0.91,
+          "ci95_low": 0.847,
+          "ci95_high": 0.966
+        },
+        "best_val_f1": 0.933
+      },
+      "logistic": {
+        "precision": 0.677,
+        "recall": 0.955,
+        "f1": 0.792,
+        "fsr": 0.312,
+        "auroc": 0.898,
+        "auprc": 0.828,
+        "ece": 0.09,
+        "tp": 42.0,
+        "fp": 20.0,
+        "fn": 2.0,
+        "tn": 44.0
+      },
+      "displacement_threshold": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.812,
+        "auprc": 0.82,
+        "ece": 0.299,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "selected_threshold": 0.02500000037252903
+      }
+    }
+  ],
+  "A1b_incompleteness_without_geometry": [
+    {
+      "ratio": 1.0,
+      "dyphygraph": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.812,
+        "auprc": 0.82,
+        "ece": 0.262,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "f1_ci95": {
+          "mean": 0.77,
+          "ci95_low": 0.667,
+          "ci95_high": 0.872
+        },
+        "best_val_f1": 0.778
+      }
+    },
+    {
+      "ratio": 0.75,
+      "dyphygraph": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.804,
+        "auprc": 0.817,
+        "ece": 0.268,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "f1_ci95": {
+          "mean": 0.77,
+          "ci95_low": 0.667,
+          "ci95_high": 0.872
+        },
+        "best_val_f1": 0.778
+      }
+    },
+    {
+      "ratio": 0.5,
+      "dyphygraph": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "fsr": 0.0,
+        "auroc": 0.8,
+        "auprc": 0.815,
+        "ece": 0.163,
+        "tp": 28.0,
+        "fp": 0.0,
+        "fn": 16.0,
+        "tn": 64.0,
+        "f1_ci95": {
+          "mean": 0.77,
+          "ci95_low": 0.667,
+          "ci95_high": 0.872
+        },
+        "best_val_f1": 0.778
+      }
+    },
+    {
+      "ratio": 0.25,
+      "dyphygraph": {
+        "precision": 0.706,
+        "recall": 0.545,
+        "f1": 0.615,
+        "fsr": 0.156,
+        "auroc": 0.768,
+        "auprc": 0.759,
+        "ece": 0.168,
+        "tp": 24.0,
+        "fp": 10.0,
+        "fn": 20.0,
+        "tn": 54.0,
+        "f1_ci95": {
+          "mean": 0.606,
+          "ci95_low": 0.484,
+          "ci95_high": 0.716
+        },
+        "best_val_f1": 0.775
+      }
+    },
+    {
+      "ratio": 0.1,
+      "dyphygraph": {
+        "precision": 0.43,
+        "recall": 0.977,
+        "f1": 0.597,
+        "fsr": 0.891,
+        "auroc": 0.688,
+        "auprc": 0.617,
+        "ece": 0.104,
+        "tp": 43.0,
+        "fp": 57.0,
+        "fn": 1.0,
+        "tn": 7.0,
+        "f1_ci95": {
+          "mean": 0.596,
+          "ci95_low": 0.496,
+          "ci95_high": 0.688
+        },
+        "best_val_f1": 0.609
+      }
+    }
+  ],
+  "channel_ablations": [
+    {
+      "variant": "full",
+      "precision": 0.917,
+      "recall": 1.0,
+      "f1": 0.957,
+      "fsr": 0.062,
+      "auroc": 1.0,
+      "auprc": 0.977,
+      "ece": 0.144,
+      "tp": 44.0,
+      "fp": 4.0,
+      "fn": 0.0,
+      "tn": 60.0,
+      "f1_ci95": {
+        "mean": 0.957,
+        "ci95_low": 0.914,
+        "ci95_high": 0.99
+      },
+      "best_val_f1": 0.957
+    },
+    {
+      "variant": "without_motion",
+      "precision": 0.909,
+      "recall": 0.909,
+      "f1": 0.909,
+      "fsr": 0.062,
+      "auroc": 0.942,
+      "auprc": 0.861,
+      "ece": 0.088,
+      "tp": 40.0,
+      "fp": 4.0,
+      "fn": 4.0,
+      "tn": 60.0,
+      "f1_ci95": {
+        "mean": 0.91,
+        "ci95_low": 0.847,
+        "ci95_high": 0.966
+      },
+      "best_val_f1": 0.909
+    },
+    {
+      "variant": "without_contact",
+      "precision": 0.917,
+      "recall": 1.0,
+      "f1": 0.957,
+      "fsr": 0.062,
+      "auroc": 1.0,
+      "auprc": 0.977,
+      "ece": 0.144,
+      "tp": 44.0,
+      "fp": 4.0,
+      "fn": 0.0,
+      "tn": 60.0,
+      "f1_ci95": {
+        "mean": 0.957,
+        "ci95_low": 0.914,
+        "ci95_high": 0.99
+      },
+      "best_val_f1": 0.957
+    },
+    {
+      "variant": "without_geometry_priors",
+      "precision": 1.0,
+      "recall": 0.636,
+      "f1": 0.778,
+      "fsr": 0.0,
+      "auroc": 0.812,
+      "auprc": 0.82,
+      "ece": 0.262,
+      "tp": 28.0,
+      "fp": 0.0,
+      "fn": 16.0,
+      "tn": 64.0,
+      "f1_ci95": {
+        "mean": 0.77,
+        "ci95_low": 0.667,
+        "ci95_high": 0.872
+      },
+      "best_val_f1": 0.778
+    },
+    {
+      "variant": "without_counterfactual",
+      "precision": 0.909,
+      "recall": 0.909,
+      "f1": 0.909,
+      "fsr": 0.062,
+      "auroc": 0.923,
+      "auprc": 0.842,
+      "ece": 0.152,
+      "tp": 40.0,
+      "fp": 4.0,
+      "fn": 4.0,
+      "tn": 60.0,
+      "f1_ci95": {
+        "mean": 0.91,
+        "ci95_low": 0.847,
+        "ci95_high": 0.966
+      },
+      "best_val_f1": 0.909
+    }
+  ],
+  "notes": "A-1 keeps static geometry (CAD twin). On analytic data geom often saturates F1; A-1b zeros geom channels so incompleteness affects CF motion evidence."
+}

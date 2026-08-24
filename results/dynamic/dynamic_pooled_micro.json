@@ -1,0 +1,358 @@
+{
+  "corpora": {
+    "procedural": {
+      "geometry_rule": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 0.111111,
+          "transfer": 0.888889,
+          "tp": 27.0,
+          "fp": 18.0,
+          "fn": 18.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 0.111111,
+          "transfer": 0.888889,
+          "tp": 27.0,
+          "fp": 18.0,
+          "fn": 18.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 0.111111,
+          "transfer": 0.888889,
+          "tp": 27.0,
+          "fp": 18.0,
+          "fn": 18.0
+        }
+      },
+      "logistic": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.712871,
+          "precision": 0.642857,
+          "recall": 0.8,
+          "add": 0.947368,
+          "remove": 0.679245,
+          "transfer": 0.62069,
+          "tp": 36.0,
+          "fp": 20.0,
+          "fn": 9.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.953488,
+          "precision": 1.0,
+          "recall": 0.911111,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.875,
+          "tp": 41.0,
+          "fp": 0.0,
+          "fn": 4.0
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        }
+      },
+      "mlp": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.727273,
+          "precision": 0.666667,
+          "recall": 0.8,
+          "add": 1.0,
+          "remove": 0.692308,
+          "transfer": 0.62069,
+          "tp": 36.0,
+          "fp": 18.0,
+          "fn": 9.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 27.0,
+          "fp": 0.0,
+          "fn": 18.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 1.0,
+          "tp": 45.0,
+          "fp": 0.0,
+          "fn": 0.0
+        }
+      }
+    },
+    "isaac_hc": {
+      "geometry_rule": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.514286,
+          "precision": 0.45,
+          "recall": 0.6,
+          "add": 0.705882,
+          "remove": 0.307692,
+          "transfer": 0.592593,
+          "tp": 18.0,
+          "fp": 22.0,
+          "fn": 12.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 0.333333,
+          "transfer": 0.666667,
+          "tp": 18.0,
+          "fp": 12.0,
+          "fn": 12.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 0.333333,
+          "transfer": 0.666667,
+          "tp": 18.0,
+          "fp": 12.0,
+          "fn": 12.0
+        }
+      },
+      "logistic": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.578313,
+          "precision": 0.45283,
+          "recall": 0.8,
+          "add": 0.666667,
+          "remove": 0.666667,
+          "transfer": 0.413793,
+          "tp": 24.0,
+          "fp": 29.0,
+          "fn": 6.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 0.0,
+          "fn": 12.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.846154,
+          "precision": 1.0,
+          "recall": 0.733333,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.5,
+          "tp": 22.0,
+          "fp": 0.0,
+          "fn": 8.0
+        }
+      },
+      "random_forest": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.692308,
+          "precision": 0.818182,
+          "recall": 0.6,
+          "add": 0.75,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 4.0,
+          "fn": 12.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 0.0,
+          "fn": 12.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 0.0,
+          "fn": 12.0
+        }
+      },
+      "mlp": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.679245,
+          "precision": 0.782609,
+          "recall": 0.6,
+          "add": 0.705882,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 5.0,
+          "fn": 12.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.666667,
+          "precision": 0.75,
+          "recall": 0.6,
+          "add": 0.666667,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 6.0,
+          "fn": 12.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 0.545455,
+          "precision": 0.5,
+          "recall": 0.6,
+          "add": 0.5,
+          "remove": 0.8,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 18.0,
+          "fn": 12.0
+        }
+      },
+      "health_dyphygraph": {
+        "independent": {
+          "pooled_delta_micro_f1": 0.685714,
+          "precision": 0.6,
+          "recall": 0.8,
+          "add": 0.75,
+          "remove": 0.75,
+          "transfer": 0.545455,
+          "tp": 24.0,
+          "fp": 16.0,
+          "fn": 6.0
+        },
+        "state_consistency": {
+          "pooled_delta_micro_f1": 0.75,
+          "precision": 1.0,
+          "recall": 0.6,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 0.0,
+          "tp": 18.0,
+          "fp": 0.0,
+          "fn": 12.0
+        },
+        "transition_aware": {
+          "pooled_delta_micro_f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "add": 1.0,
+          "remove": 1.0,
+          "transfer": 1.0,
+          "tp": 30.0,
+          "fp": 0.0,
+          "fn": 0.0
+        }
+      }
+    }
+  }
+}

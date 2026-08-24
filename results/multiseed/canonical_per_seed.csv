@@ -1,0 +1,6 @@
+seed,isaac_full_pop_static_ge_f1,isaac_transition_current_static_ge_f1,isaac_transition_macro_dyn_f1,isaac_transfer_f1,isaac_add_f1,isaac_remove_f1,isaac_false_nt_switches,isaac_graph_violations,proc_full_pop_static_ge_f1,proc_transition_current_static_ge_f1,proc_transition_macro_dyn_f1,proc_transfer_f1,proc_add_f1,proc_remove_f1,proc_false_nt_switches,proc_graph_violations
+0,0.898785,0.890688,1.0,1.0,1.0,1.0,0,0,0.956772,0.948127,1.0,1.0,1.0,1.0,0,0
+1,0.898785,0.890688,1.0,1.0,1.0,1.0,0,0,0.956772,0.948127,1.0,1.0,1.0,1.0,0,0
+2,0.898785,0.890688,1.0,1.0,1.0,1.0,0,0,0.956772,0.948127,1.0,1.0,1.0,1.0,0,0
+3,0.898785,0.890688,1.0,1.0,1.0,1.0,0,0,0.956772,0.948127,1.0,1.0,1.0,1.0,0,0
+4,0.898785,0.890688,1.0,1.0,1.0,1.0,0,0,0.956772,0.948127,1.0,1.0,1.0,1.0,0,0

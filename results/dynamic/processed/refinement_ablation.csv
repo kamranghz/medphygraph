@@ -1,0 +1,13 @@
+corpus,stage,label,static_pooled_ge_f1,static_note,mean_violations,transition_macro_dyn_f1,pooled_delta_micro_f1,add,remove,transfer
+procedural,independent,Independent Scoring,0.953571,exact,1.462963,0.759259,0.727273,1.0,0.703704,0.62963
+procedural,state_consistency,+ State Consistency,0.974063,exact,0.0,0.75,0.75,1.0,1.0,0.0
+procedural,union_rescoring,+ Union Candidate Rescoring Only,0.974063,static_proxy_state_consistency,0.0,0.75,0.75,1.0,1.0,0.0
+procedural,direct_support_gate,+ Direct-Support Admissibility Only,0.974063,static_proxy_state_consistency,0.0,0.726852,0.642857,0.481481,0.75,0.925926
+procedural,union_and_gate,+ Union Rescoring and Direct-Support Admissibility,0.974063,static_proxy_state_consistency,0.0,0.75,0.75,1.0,1.0,0.0
+procedural,medphygraph,+ Full Transition-Aware Support Selection (MedPhyGraph),0.948127,exact,0.0,1.0,1.0,1.0,1.0,1.0
+isaac_hc,independent,Independent Scoring,0.858228,exact,1.361111,0.729167,0.685714,0.805556,0.777778,0.555556
+isaac_hc,state_consistency,+ State Consistency,0.91498,exact,0.0,0.75,0.75,1.0,1.0,0.0
+isaac_hc,union_rescoring,+ Union Candidate Rescoring Only,0.91498,static_proxy_state_consistency,0.0,0.75,0.75,1.0,1.0,0.0
+isaac_hc,direct_support_gate,+ Direct-Support Admissibility Only,0.91498,static_proxy_state_consistency,0.0,0.711806,0.625,0.680556,0.694444,0.777778
+isaac_hc,union_and_gate,+ Union Rescoring and Direct-Support Admissibility,0.91498,static_proxy_state_consistency,0.0,0.75,0.75,1.0,1.0,0.0
+isaac_hc,medphygraph,+ Full Transition-Aware Support Selection (MedPhyGraph),0.890688,exact,0.0,1.0,1.0,1.0,1.0,1.0

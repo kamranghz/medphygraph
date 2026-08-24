@@ -51,10 +51,6 @@ Isaac rendering is **visual context only** — not a model input or label source
 export ISAAC_SIM_ROOT=/path/to/isaac-sim-standalone-6.0.1
 export I4H_ASSETS_ROOT=/path/to/i4h-assets/724f82e
 
-# Windows PowerShell
-# $env:ISAAC_SIM_ROOT = "C:\isaac-sim-standalone-6.0.1-windows-x86_64"
-# $env:I4H_ASSETS_ROOT = "D:\path\to\i4h-assets\724f82e"
-
 python scripts/isaac/export_tray_transfer_usda.py
 ```
 

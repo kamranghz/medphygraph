@@ -8,9 +8,9 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Project Page](https://img.shields.io/badge/🌐-Project%20Page-blue)](https://medphygraph.github.io/)
-[![Model](https://img.shields.io/badge/🤗%20Model-CF--SupportNet-yellow)](https://huggingface.co/MedPhyGraph/CF-SupportNet)
-[![Dataset](https://img.shields.io/badge/🤗%20Dataset-support--graph--data-yellow)](https://huggingface.co/datasets/MedPhyGraph/support-graph-data)
+[![Project Page](https://img.shields.io/badge/Project%20Page-blue)](https://medphygraph.github.io/)
+[![Model](https://img.shields.io/badge/HF%20Model-CF--SupportNet-yellow)](https://huggingface.co/MedPhyGraph/CF-SupportNet)
+[![Dataset](https://img.shields.io/badge/HF%20Dataset-support--graph--data-yellow)](https://huggingface.co/datasets/MedPhyGraph/support-graph-data)
 [![Isaac Sim](https://img.shields.io/badge/Isaac%20Sim-used%20for%20scene%20realization-76B900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac-sim)
 [![Isaac for Healthcare](https://img.shields.io/badge/Isaac%20for%20Healthcare-I4H%20assets-76B900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac/healthcare)
 
@@ -63,7 +63,7 @@ Then in Isaac Sim 6.0.1: open `runs/transition_demo/tray_transfer_demo_i4h.usda`
 - Source: [`src/medphygraph/tray_transfer_demo.py`](src/medphygraph/tray_transfer_demo.py)
 - Full guide: [`scripts/isaac/README.md`](scripts/isaac/README.md)
 
-**Playable video on GitHub / LinkedIn:** GitHub cannot live-stream your Isaac viewport. Capture an MP4 with Movie Capture, upload it to a [GitHub Release](https://github.com/kamranghz/medphygraph/releases) (or YouTube), then link/embed that URL in this README. Details in the Isaac guide.
+**Optional video:** capture an MP4 in Isaac (Movie Capture), host on a [GitHub Release](https://github.com/kamranghz/medphygraph/releases) or YouTube, then link it here. See [scripts/isaac/README.md](scripts/isaac/README.md).
 
 ### CPU graph update (no Isaac)
 
@@ -148,8 +148,8 @@ The 81 Isaac for Healthcare cases in the full 217-case suite use NVIDIA-licensed
 
 | | Direct download | Notes |
 |---|---|---|
-| 🤗 [Model](https://huggingface.co/MedPhyGraph/CF-SupportNet) | `hf download MedPhyGraph/CF-SupportNet --local-dir ./CF-SupportNet` | 5 checkpoints; seed0 is the paper-primary one |
-| 🤗 [Dataset](https://huggingface.co/datasets/MedPhyGraph/support-graph-data) | `hf download MedPhyGraph/support-graph-data --repo-type dataset --local-dir ./support-graph-data` | 1.18 GB, procedural subset only |
+| [Model](https://huggingface.co/MedPhyGraph/CF-SupportNet) | `hf download MedPhyGraph/CF-SupportNet --local-dir ./CF-SupportNet` | 5 checkpoints; seed0 is the paper-primary one |
+| [Dataset](https://huggingface.co/datasets/MedPhyGraph/support-graph-data) | `hf download MedPhyGraph/support-graph-data --repo-type dataset --local-dir ./support-graph-data` | 1.18 GB, procedural subset only |
 
 `scripts/download.py --verify` is still the recommended path for this repo — it places both directly under `data/` and `checkpoints/` where the code expects them and checks the seed-0 hash. A manual `hf download` gets you the same files, just needing manual placement into that same layout.
 
@@ -265,5 +265,3 @@ See also [CITATION.cff](CITATION.cff).
 <div align="center">
 <sub>MCRLab, University of Ottawa &nbsp;·&nbsp; <a href="https://github.com/kamranghz/medphygraph/issues">Issues</a></sub>
 </div>
-#   m e d p h y g r a p h -  
- 

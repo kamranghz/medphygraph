@@ -240,13 +240,12 @@ Not required for any reported metric — evaluation itself runs on analytic AABB
 ## Citation
 
 ```bibtex
-@inproceedings{gholizadeh2026medphygraph,
-  title     = {MedPhyGraph: Counterfactual Support-Graph Maintenance for
-               Dynamic Built-Environment Digital Twins},
+@InProceedings{gholizadeh2026medphygraph,
   author    = {Gholizadeh HamlAbadi, Kamran and Vahdati, Monica and El Saddik, Abdulmotaleb},
-  booktitle = {ECCV 2026 Workshops (TwinWorld: Visual Intelligence for
-               Built Environment Digital Twins)},
-  year      = {2026}
+  title     = {MedPhyGraph: Counterfactual Support-Graph Maintenance for Dynamic Built-Environment Digital Twins},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV) Workshops (TwinWorld: Visual Intelligence for Built Environment Digital Twins)},
+  year      = {2026},
+  note      = {To appear}
 }
 ```
 

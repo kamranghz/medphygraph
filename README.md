@@ -24,11 +24,17 @@
 
 MedPhyGraph maintains `SupportedBy` support graphs across adjacent digital-twin states in structured healthcare scenes. **CF-SupportNet** scores candidate support edges from geometry and analytic host-removal counterfactual evidence; deterministic **State Consistency** and **Union-Based Transition-Aware Consistency** turn those scores into a validated, updated graph. No rendered images, ground-truth destinations, or transfer metadata are used at inference.
 
+**Contents:** [Highlights](#highlights) · [Demo](#demo) · [Results](#results-at-a-glance) · [Method](#method-overview) · [Installation](#installation) · [Data & Model Prep](#data--model-preparation) · [Quick Start](#quick-start) · [Reproduce Results](#reproduce-paper-results) · [Expected Outputs](#expected-outputs) · [Repo Structure](#repository-structure) · [Isaac for Healthcare](#nvidia-isaac-for-healthcare) · [Citation](#citation) · [License](#license)
+
+---
+
 ## Highlights
 
 - **Counterfactual, not correlational** — support is scored from *what would happen if the host were removed*, via an analytic host-removal rollout, not proximity heuristics.
 - **Transition-aware, not per-frame** — a Direct-Support Gate and dual-state scoring recover support **transfers** across states, where per-state baselines score 0.
 - **Fully reproducible** — every paper number ships as byte-frozen JSON/CSV under `results/`, checked against the run that produced them via SHA-256.
+
+---
 
 ## Demo
 
@@ -57,7 +63,8 @@ python scripts/isaac/export_tray_transfer_usda.py
 Then in Isaac Sim 6.0.1: open `runs/transition_demo/tray_transfer_demo_i4h.usda`, select **DemoCamera**, play the Timeline (RTX Real-Time; Camera Light off).
 
 - Source: [`src/medphygraph/tray_transfer_demo.py`](src/medphygraph/tray_transfer_demo.py)
-- Full guide: [`scripts/isaac/README.md`](scripts/isaac/README.md)
+- Other Isaac scene utilities: `python scripts/isaac/open_scene.py --help`
+- Full guide, including the optional 3D-beam viewport graph: [`scripts/isaac/README.md`](scripts/isaac/README.md)
 
 **Optional video:** capture an MP4 in Isaac (Movie Capture), host on a [GitHub Release](https://github.com/kamranghz/medphygraph/releases) or YouTube, then link it here. See [scripts/isaac/README.md](scripts/isaac/README.md).
 
@@ -71,6 +78,8 @@ python scripts/demo.py
 
 Prints added/removed `SupportedBy` edges for one scene.
 
+---
+
 ## Results at a Glance
 
 | Protocol | Transfer Dyn-F1 | Add / Remove Dyn-F1 | Scope |
@@ -79,6 +88,8 @@ Prints added/removed `SupportedBy` edges for one scene.
 | Expanded (217 transfers, 19 templates) | **0.998** (pooled) | 1.000 / 0.995 | Required-success 1.000; 0.997 ± 0.001 across seeds 0–4 |
 
 Full baseline comparisons, component analysis, and bootstrap confidence intervals are in `results/` — see [Reproduce Paper Results](#reproduce-paper-results).
+
+---
 
 ## Method Overview
 
@@ -89,6 +100,8 @@ The figure above is the actual pipeline, panel by panel:
 3. **Counterfactual Host Removal** — an analytic AABB rollout, $\tilde z_k = \max(z_{\text{floor}},\, z_0 - \tfrac{1}{2}g(k\Delta t)^2)$, simulates removing each candidate host and tracks whether the subject falls.
 4. **CF-SupportNet** — a GRU + geometry MLP scores every candidate edge, $p_t(e)$, from the rollout evidence and static geometry.
 5. **Dynamic Graph Update** — State Consistency → Union-Based Transition-Aware Consistency → Direct-Support Gate turn scores into a valid graph and the added/removed edges ($\Delta E^+$, $\Delta E^-$) between $G_{t-1}$ and $G_t^{\star}$.
+
+---
 
 ## Installation
 
@@ -115,6 +128,8 @@ cd medphygraph
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -e ".[dev,hf]"
 ```
+
+---
 
 ## Data & Model Preparation
 
@@ -149,6 +164,8 @@ The 81 Isaac for Healthcare cases in the full 217-case suite use NVIDIA-licensed
 
 `scripts/download.py --verify` is still the recommended path for this repo — it places both directly under `data/` and `checkpoints/` where the code expects them and checks the seed-0 hash. A manual `hf download` gets you the same files, just needing manual placement into that same layout.
 
+---
+
 ## Quick Start
 
 ```bash
@@ -156,6 +173,8 @@ python scripts/smoke_test.py                                  # loads seed0, one
 python scripts/demo.py                                        # single-scene graph update
 python scripts/evaluation/expanded_transfer.py --eval-only     # 136/136 on the downloaded subset
 ```
+
+---
 
 ## Reproduce Paper Results
 
@@ -178,6 +197,8 @@ New runs write to `runs/<script>/<utc-timestamp>/` (git-ignored) and never touch
 
 > Released checkpoints reproduce the paper's **evaluation** numbers; historical training scripts are not claimed to exactly reproduce the seed-0 checkpoint from scratch. A few `label` fields inside `results/**/*.json` keep historical display names on purpose — those files are frozen byte-for-byte against what produced the paper.
 
+---
+
 ## Expected Outputs
 
 | Command | Output | Meaning |
@@ -186,6 +207,8 @@ New runs write to `runs/<script>/<utc-timestamp>/` (git-ignored) and never touch
 | `demo.py` | printed graph diff | added/removed edges for one scripted transition |
 | `expanded_transfer.py --eval-only` | `136/136` | every downloaded transfer case recovered |
 | `verify_release.py` | PASS/FAIL per gate | release-readiness, including the frozen-results hash audit |
+
+---
 
 ## Repository Structure
 
@@ -204,11 +227,13 @@ medphygraph/
 └── data/ checkpoints/ runs/  populated by download.py / evaluation (git-ignored)
 ```
 
+---
+
 ## NVIDIA Isaac for Healthcare
 
 Isaac assets are rendered for visual context only and are never a model input — but 12 of the paper's 30 core layouts and 81 of the 217 expanded-transfer cases are genuinely evaluated in NVIDIA Isaac for Healthcare environments. Those Isaac-derived structured states and assets are NVIDIA-licensed and aren't redistributed here or on Hugging Face; their frozen numbers still ship in `results/`, but the Isaac portion specifically isn't expected to reproduce end-to-end from the public artifacts alone.
 
-### Local install (demo + optional viewers)
+Setup, versions, and the run command are in the [Demo](#demo) section above — this section covers scope and licensing only, not a second copy of the same install steps.
 
 | Piece | Version | Link |
 | --- | --- | --- |
@@ -216,26 +241,9 @@ Isaac assets are rendered for visual context only and are never a model input �
 | I4H assets | **v0.7.0** (`724f82e`) | [Isaac for Healthcare](https://developer.nvidia.com/isaac/healthcare) |
 | I4H workflows (docs) | — | [isaac-for-healthcare/i4h-workflows](https://github.com/isaac-for-healthcare/i4h-workflows) |
 
-```bash
-export ISAAC_SIM_ROOT=/path/to/isaac-sim-standalone-6.0.1
-export I4H_ASSETS_ROOT=/path/to/i4h-assets/724f82e
-python scripts/isaac/export_tray_transfer_usda.py   # tray-transfer USDA demo
-python scripts/isaac/open_scene.py --help
-```
-
-Step-by-step open/play/capture: [`scripts/isaac/README.md`](scripts/isaac/README.md).
-
-Optional viewport graph (3D support beams):
-
-```bash
-conda activate medphygraph
-python scripts/download.py --verify          # once, for the checkpoint
-python scripts/isaac/transition_demo_log.py
-python scripts/isaac/open_transition_viewer.py
-# optional 2D graph (no Isaac): python scripts/isaac/render_transition_graph.py --log runs/transition_demo/transition_log.json
-```
-
 Not required for any reported metric — evaluation itself runs on analytic AABB counterfactuals, not simulation.
+
+---
 
 ## Citation
 
